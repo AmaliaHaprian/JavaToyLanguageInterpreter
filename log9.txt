@@ -1,0 +1,612 @@
+------- Program #2 -------
+	    ExeStack:
+int v
+
+v=4
+
+while((v > 0))(print(v),v=v-1)
+
+print(v)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+int v
+v=4
+
+while((v > 0))(print(v),v=v-1)
+
+print(v)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+int v
+v=4
+
+while((v > 0))(print(v),v=v-1)
+
+print(v)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=4
+
+while((v > 0))(print(v),v=v-1)
+
+print(v)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=4
+
+while((v > 0))(print(v),v=v-1)
+
+print(v)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=4
+while((v > 0))(print(v),v=v-1)
+
+print(v)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=4
+while((v > 0))(print(v),v=v-1)
+
+print(v)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+while((v > 0))(print(v),v=v-1)
+
+print(v)
+	    Symtbl:
+v->4
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+while((v > 0))(print(v),v=v-1)
+
+print(v)
+	    Symtbl:
+v->4
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->4
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->4
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->4
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->4
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+v=v-1
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->4
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+v=v-1
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->4
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=v-1
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->4
+	    Out:
+4
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=v-1
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->4
+	    Out:
+4
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->3
+	    Out:
+4
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->3
+	    Out:
+4
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->3
+	    Out:
+4
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->3
+	    Out:
+4
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+v=v-1
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->3
+	    Out:
+4
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+v=v-1
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->3
+	    Out:
+4
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=v-1
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->3
+	    Out:
+4
+3
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=v-1
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->3
+	    Out:
+4
+3
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->2
+	    Out:
+4
+3
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->2
+	    Out:
+4
+3
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->2
+	    Out:
+4
+3
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->2
+	    Out:
+4
+3
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+v=v-1
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->2
+	    Out:
+4
+3
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+v=v-1
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->2
+	    Out:
+4
+3
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=v-1
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->2
+	    Out:
+4
+3
+2
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=v-1
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->2
+	    Out:
+4
+3
+2
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->1
+	    Out:
+4
+3
+2
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->1
+	    Out:
+4
+3
+2
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->1
+	    Out:
+4
+3
+2
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->1
+	    Out:
+4
+3
+2
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+v=v-1
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->1
+	    Out:
+4
+3
+2
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+v=v-1
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->1
+	    Out:
+4
+3
+2
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=v-1
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->1
+	    Out:
+4
+3
+2
+1
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=v-1
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->1
+	    Out:
+4
+3
+2
+1
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->0
+	    Out:
+4
+3
+2
+1
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+while((v > 0))(print(v),v=v-1)
+print(v)
+	    Symtbl:
+v->0
+	    Out:
+4
+3
+2
+1
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+	    Symtbl:
+v->0
+	    Out:
+4
+3
+2
+1
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+	    Symtbl:
+v->0
+	    Out:
+4
+3
+2
+1
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+
+	    Symtbl:
+v->0
+	    Out:
+4
+3
+2
+1
+0
+	    File Table:
+	    Heap:
+

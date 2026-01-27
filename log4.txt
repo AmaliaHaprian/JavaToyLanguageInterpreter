@@ -1,0 +1,2442 @@
+------- Program #1 -------
+	    ExeStack:
+string varf
+
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+string varf
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+string varf
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+varf=test.in
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+varf=test.in
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+openRFile(varf)
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+openRFile(varf)
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int varc
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int varc
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->0
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->0
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->0
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->0
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+15
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+15
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+15
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+string varf
+
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+string varf
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+string varf
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+varf=test.in
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+varf=test.in
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+openRFile(varf)
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+openRFile(varf)
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int varc
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int varc
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->0
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->0
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->0
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->0
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+50
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+50
+	    File Table:
+test.in->java.io.BufferedReader@7247a89f
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+50
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+string varf
+
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+string varf
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+string varf
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+varf=test.in
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+varf=test.in
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+openRFile(varf)
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+openRFile(varf)
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int varc
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int varc
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->0
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->0
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->0
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->0
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+50
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+50
+	    File Table:
+test.in->java.io.BufferedReader@6c876197
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+50
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+string varf
+
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+string varf
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+string varf
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+varf=test.in
+
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+varf=test.in
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+varf=test.in
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+openRFile(varf)
+
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+openRFile(varf)
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+openRFile(varf)
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int varc
+
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int varc
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int varc
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->0
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->0
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->0
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->0
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Read file :varf
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->15
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(varc)
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+50
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+CloseRFileStmt(varf)
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+50
+	    File Table:
+test.in->java.io.BufferedReader@3d85d0b6
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+
+	    Symtbl:
+varf->test.in
+varc->50
+	    Out:
+15
+50
+	    File Table:
+	    Heap:
+

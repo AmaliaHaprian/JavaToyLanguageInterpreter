@@ -1,0 +1,664 @@
+------- Program #3 -------
+	    ExeStack:
+Ref(int) v
+
+new(v,20)
+
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+Ref(int) v
+new(v,20)
+
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+Ref(int) v
+new(v,20)
+
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+new(v,20)
+
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+v->0:int
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+new(v,20)
+
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+v->0:int
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+new(v,20)
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+v->0:int
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+new(v,20)
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+v->0:int
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #3 -------
+	    ExeStack:
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #3 -------
+	    ExeStack:
+Ref(Ref(int)) a
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #3 -------
+	    ExeStack:
+Ref(Ref(int)) a
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #3 -------
+	    ExeStack:
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+a->0:Ref(int)
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #3 -------
+	    ExeStack:
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+a->0:Ref(int)
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #3 -------
+	    ExeStack:
+new(a,v)
+print(v)
+
+print(a)
+	    Symtbl:
+a->0:Ref(int)
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #3 -------
+	    ExeStack:
+new(a,v)
+print(v)
+
+print(a)
+	    Symtbl:
+a->0:Ref(int)
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #3 -------
+	    ExeStack:
+print(v)
+
+print(a)
+	    Symtbl:
+a->2:Ref(int)
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->1:int
+
+------- Program #3 -------
+	    ExeStack:
+print(v)
+
+print(a)
+	    Symtbl:
+a->2:Ref(int)
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->1:int
+
+------- Program #3 -------
+	    ExeStack:
+print(v)
+print(a)
+	    Symtbl:
+a->2:Ref(int)
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->1:int
+
+------- Program #3 -------
+	    ExeStack:
+print(v)
+print(a)
+	    Symtbl:
+a->2:Ref(int)
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->1:int
+
+------- Program #3 -------
+	    ExeStack:
+print(a)
+	    Symtbl:
+a->2:Ref(int)
+v->1:int
+	    Out:
+1:int
+	    File Table:
+	    Heap:
+1->20
+2->1:int
+
+------- Program #3 -------
+	    ExeStack:
+print(a)
+	    Symtbl:
+a->2:Ref(int)
+v->1:int
+	    Out:
+1:int
+	    File Table:
+	    Heap:
+1->20
+2->1:int
+
+------- Program #3 -------
+	    ExeStack:
+
+	    Symtbl:
+a->2:Ref(int)
+v->1:int
+	    Out:
+1:int
+2:Ref(int)
+	    File Table:
+	    Heap:
+1->20
+2->1:int
+
+------- Program #2 -------
+	    ExeStack:
+Ref(int) v
+
+new(v,20)
+
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+Ref(int) v
+new(v,20)
+
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+Ref(int) v
+new(v,20)
+
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+new(v,20)
+
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+v->0:int
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+new(v,20)
+
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+v->0:int
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+new(v,20)
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+v->0:int
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+new(v,20)
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+v->0:int
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #2 -------
+	    ExeStack:
+Ref(Ref(int)) a
+
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #2 -------
+	    ExeStack:
+Ref(Ref(int)) a
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #2 -------
+	    ExeStack:
+Ref(Ref(int)) a
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #2 -------
+	    ExeStack:
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+a->0:Ref(int)
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #2 -------
+	    ExeStack:
+new(a,v)
+
+print(v)
+
+print(a)
+	    Symtbl:
+a->0:Ref(int)
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #2 -------
+	    ExeStack:
+new(a,v)
+print(v)
+
+print(a)
+	    Symtbl:
+a->0:Ref(int)
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #2 -------
+	    ExeStack:
+new(a,v)
+print(v)
+
+print(a)
+	    Symtbl:
+a->0:Ref(int)
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+
+print(a)
+	    Symtbl:
+a->2:Ref(int)
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->1:int
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+
+print(a)
+	    Symtbl:
+a->2:Ref(int)
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->1:int
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+print(a)
+	    Symtbl:
+a->2:Ref(int)
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->1:int
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+print(a)
+	    Symtbl:
+a->2:Ref(int)
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->1:int
+
+------- Program #2 -------
+	    ExeStack:
+print(a)
+	    Symtbl:
+a->2:Ref(int)
+v->1:int
+	    Out:
+1:int
+	    File Table:
+	    Heap:
+1->20
+2->1:int
+
+------- Program #2 -------
+	    ExeStack:
+print(a)
+	    Symtbl:
+a->2:Ref(int)
+v->1:int
+	    Out:
+1:int
+	    File Table:
+	    Heap:
+1->20
+2->1:int
+
+------- Program #2 -------
+	    ExeStack:
+
+	    Symtbl:
+a->2:Ref(int)
+v->1:int
+	    Out:
+1:int
+2:Ref(int)
+	    File Table:
+	    Heap:
+1->20
+2->1:int
+

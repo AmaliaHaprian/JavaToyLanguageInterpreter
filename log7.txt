@@ -1,0 +1,242 @@
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v
+
+new(v,20)
+
+print(rH(v))
+
+wH(v,30)
+
+print(rH(v)+5)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v
+new(v,20)
+
+print(rH(v))
+
+wH(v,30)
+
+print(rH(v)+5)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v
+new(v,20)
+
+print(rH(v))
+
+wH(v,30)
+
+print(rH(v)+5)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+new(v,20)
+
+print(rH(v))
+
+wH(v,30)
+
+print(rH(v)+5)
+	    Symtbl:
+v->0:int
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+new(v,20)
+
+print(rH(v))
+
+wH(v,30)
+
+print(rH(v)+5)
+	    Symtbl:
+v->0:int
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+new(v,20)
+print(rH(v))
+
+wH(v,30)
+
+print(rH(v)+5)
+	    Symtbl:
+v->0:int
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+new(v,20)
+print(rH(v))
+
+wH(v,30)
+
+print(rH(v)+5)
+	    Symtbl:
+v->0:int
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v))
+
+wH(v,30)
+
+print(rH(v)+5)
+	    Symtbl:
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v))
+
+wH(v,30)
+
+print(rH(v)+5)
+	    Symtbl:
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v))
+wH(v,30)
+
+print(rH(v)+5)
+	    Symtbl:
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v))
+wH(v,30)
+
+print(rH(v)+5)
+	    Symtbl:
+v->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #1 -------
+	    ExeStack:
+wH(v,30)
+
+print(rH(v)+5)
+	    Symtbl:
+v->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #1 -------
+	    ExeStack:
+wH(v,30)
+
+print(rH(v)+5)
+	    Symtbl:
+v->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #1 -------
+	    ExeStack:
+wH(v,30)
+print(rH(v)+5)
+	    Symtbl:
+v->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #1 -------
+	    ExeStack:
+wH(v,30)
+print(rH(v)+5)
+	    Symtbl:
+v->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v)+5)
+	    Symtbl:
+v->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->30
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v)+5)
+	    Symtbl:
+v->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->30
+
+------- Program #1 -------
+	    ExeStack:
+
+	    Symtbl:
+v->1:int
+	    Out:
+20
+35
+	    File Table:
+	    Heap:
+1->30
+
