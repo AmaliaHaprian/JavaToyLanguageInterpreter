@@ -1,0 +1,1604 @@
+------- Program #1 -------
+	    ExeStack:
+int v
+
+int x
+
+int y
+
+v=0
+
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int v
+int x
+
+int y
+
+v=0
+
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int v
+int x
+
+int y
+
+v=0
+
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+
+int y
+
+v=0
+
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+
+int y
+
+v=0
+
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+int y
+
+v=0
+
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+int y
+
+v=0
+
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int y
+
+v=0
+
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int y
+
+v=0
+
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int y
+v=0
+
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int y
+v=0
+
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=0
+
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=0
+
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=0
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=0
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+
+v=v+1
+
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+
+v=v+1
+
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->1
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->1
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+
+v=v+1
+
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+
+v=v+1
+
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+
+	    Symtbl:
+x->0
+y->0
+v->-1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->2
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+print(v)
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->2
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+print(v)
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+
+v=v+1
+
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->1
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+
+v=v+1
+
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->1
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+
+	    Symtbl:
+x->0
+y->0
+v->0
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #4 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #4 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->3
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #4 -------
+	    ExeStack:
+print(v)
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->3
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #4 -------
+	    ExeStack:
+print(v)
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #4 -------
+	    ExeStack:
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->2
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+x=1
+
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #4 -------
+	    ExeStack:
+v=v-1
+	    Symtbl:
+x->0
+y->0
+v->2
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+x=1
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #4 -------
+	    ExeStack:
+
+	    Symtbl:
+x->0
+y->0
+v->1
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+x=1
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->0
+y->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Model.IStmt.NopStmt@6bace89e
+
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Model.IStmt.NopStmt@6bace89e
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Model.IStmt.NopStmt@6bace89e
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+y=3
+
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+y=3
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+y=3
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->3
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Model.IStmt.NopStmt@480a06f4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->3
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Model.IStmt.NopStmt@480a06f4
+print(v*10)
+	    Symtbl:
+x->1
+y->3
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Model.IStmt.NopStmt@480a06f4
+print(v*10)
+	    Symtbl:
+x->1
+y->3
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(v*10)
+	    Symtbl:
+x->1
+y->3
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(v*10)
+	    Symtbl:
+x->1
+y->3
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+
+	    Symtbl:
+x->1
+y->3
+v->3
+	    Out:
+0
+1
+2
+30
+	    File Table:
+	    Heap:
+
