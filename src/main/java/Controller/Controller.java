@@ -11,6 +11,7 @@ import Repository.IRepository;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
@@ -37,7 +38,7 @@ public class Controller {
         //prgList = removeCompletedPrg(prgList);
 
         executor.shutdownNow();
-        repo.setPrgStates(prgList);
+        //repo.setPrgStates(prgList);
     }
 
 //    public void allStep() throws MyException {
@@ -107,9 +108,7 @@ public class Controller {
         });
 
         List<Callable<PrgState>> callList = prgList.stream()
-                .map((PrgState p) -> (Callable<PrgState>) (() -> {
-                    return p.oneStep();
-                }))
+                .map((PrgState p) -> (Callable<PrgState>) (() -> p.oneStep()))
                 .collect(Collectors.toList());
 
         List<PrgState> newPrgList = null;
@@ -122,8 +121,8 @@ public class Controller {
                             throw new RuntimeException(e);
                         }
                     })
-                    .filter(p -> p != null)
-                    .collect(Collectors.toList());
+                    .filter(Objects::nonNull)
+                    .toList();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }

@@ -1,19 +1,16 @@
 package Model.PrgState;
 
-import Model.Exception.ADT.EmptyCollection;
-import Model.Exception.ADT.FullCollection;
 import Model.Exception.MyException;
 import Model.ExeStack.MyIStack;
-import Model.Heap.Heap;
 import Model.Heap.IHeap;
 import Model.IStmt.IStmt;
+import Model.LockTable.ILockTable;
 import Model.Out.MyIList;
 import Model.SymTable.MyIDictionary;
 import Model.Value.StringValue;
 import Model.Value.Value;
 
 import java.io.BufferedReader;
-import java.util.ArrayList;
 
 public class PrgState {
     static int nextId;
@@ -25,14 +22,16 @@ public class PrgState {
     IStmt originalProgram;
     private MyIDictionary<StringValue, BufferedReader> fileTable;
     private IHeap<Integer,Value> heap;
+    private ILockTable<Integer,Integer> lockTable;
 
-    public PrgState(MyIStack<IStmt> stk, MyIDictionary<String, Value> symtbl, MyIList<Value> ot, IStmt prg, MyIDictionary<StringValue, BufferedReader> fileTable, IHeap<Integer,Value> heap) throws MyException {
+    public PrgState(MyIStack<IStmt> stk, MyIDictionary<String, Value> symtbl, MyIList<Value> ot, IStmt prg, MyIDictionary<StringValue, BufferedReader> fileTable, IHeap<Integer,Value> heap, ILockTable<Integer, Integer> lockTable) throws MyException {
         this.exeStack = stk;
         this.symTable = symtbl;
         this.out = ot;
         this.originalProgram = deepCopy(prg);
         this.fileTable = fileTable;
         this.heap = heap;
+        this.lockTable = lockTable;
         this.id=getId();
         stk.push(prg);
     }
@@ -54,6 +53,7 @@ public class PrgState {
         return this.fileTable;
     }
     public IHeap<Integer,Value> getHeap(){ return this.heap; }
+    public ILockTable<Integer, Integer> getLockTable(){ return this.lockTable; }
     public void setStk(MyIStack<IStmt> stk){
         this.exeStack = stk;
     }
@@ -91,6 +91,10 @@ public class PrgState {
         IHeap<Integer,Value> heap=this.getHeap();
         s+="\t    Heap:\n";
         s+=heap.toString();
+
+        ILockTable<Integer, Integer> lockTable=this.getLockTable();
+        s+="\t    Lock Table:\n";
+        s+=lockTable.toString();
     return s;
     }
 

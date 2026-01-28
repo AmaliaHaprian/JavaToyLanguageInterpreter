@@ -8,6 +8,8 @@ import Model.Exp.*;
 import Model.Heap.Heap;
 import Model.Heap.IHeap;
 import Model.IStmt.*;
+import Model.LockTable.ILockTable;
+import Model.LockTable.LockTable;
 import Model.Out.MyIList;
 import Model.Out.MyList;
 import Model.PrgState.PrgState;
@@ -20,7 +22,6 @@ import Model.Value.StringValue;
 import Model.Value.Value;
 import Repository.IRepository;
 import Repository.Repository;
-import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -75,10 +76,10 @@ public class StartingWindowController implements Initializable {
             MyIList<Value> out=new MyList<Value>();
             MyIDictionary<StringValue, BufferedReader> fileTbl=new MyDictionary<StringValue, BufferedReader>();
             IHeap<Integer,Value> heap=new Heap<Integer,Value>();
-
+            ILockTable<Integer,Integer> lockTable=new LockTable();
             PrgState prg= null;
             try {
-                prg=new PrgState(stk, symtbl, out,selectedStmt,fileTbl,heap);
+                prg=new PrgState(stk, symtbl, out,selectedStmt,fileTbl,heap,lockTable);
             } catch (MyException e) {
                 System.out.println(e.getMessage());
             }
@@ -212,6 +213,23 @@ public class StartingWindowController implements Initializable {
                                                                         new CompStmt(new PrintStmt(new VarExp("v")),
                                                                                 new PrintStmt(new ReadHeapExp(new VarExp("a"))))))))))));
 
+        IStmt ex11=new CompStmt(new VarDeclStmt("v1", new RefType(new IntType())),
+                new CompStmt(new VarDeclStmt("v2", new RefType(new IntType())),
+                        new CompStmt(new VarDeclStmt("x",  new IntType()),
+                                new CompStmt(new VarDeclStmt("q", new IntType()),
+                                        new CompStmt(new NewStmt("v1", new ValueExp(new IntValue(20))),
+                                                new CompStmt(new NewStmt("v2", new ValueExp(new IntValue(30))),
+                                                        new CompStmt(new NewLockStmt("x"),
+                                                                new CompStmt(new ForkStmt(new CompStmt(new ForkStmt(new CompStmt(new LockStmt("x"),
+                                                                        new CompStmt(new WriteHeapStmt("v1", new ArithExp(new ReadHeapExp(new VarExp("v1")), new ValueExp(new IntValue(1)), '-')), new UnlockStmt("x")))),
+                                                                        new CompStmt(new LockStmt("x"), new CompStmt(new WriteHeapStmt("v1", new ArithExp(new ReadHeapExp(new VarExp("v1")), new ValueExp(new IntValue(10)), '*')),new UnlockStmt("x"))))
+                                                                        ),new CompStmt(new NewLockStmt("q"),
+                                                                                        new CompStmt(new ForkStmt(new CompStmt(new ForkStmt(new CompStmt(new LockStmt("q"), new CompStmt( new WriteHeapStmt("v2", new ArithExp(new ReadHeapExp(new VarExp("v2")), new ValueExp(new IntValue(5)),'+')), new UnlockStmt("q")))),
+                                                                                                                new CompStmt(new LockStmt("q"), new CompStmt(new WriteHeapStmt("v2", new ArithExp(new ReadHeapExp(new VarExp("v2")), new ValueExp(new IntValue(10)), '*')), new UnlockStmt("q"))))),
+                                                                                                new CompStmt(new NopStmt(), new CompStmt(new NopStmt(), new CompStmt(new NopStmt(),new CompStmt(new NopStmt(),
+                                                                                                        new CompStmt(new LockStmt("x"), new CompStmt(new PrintStmt(new ReadHeapExp(new VarExp("v1"))),
+                                                                                                                new CompStmt(new UnlockStmt("x"),
+                                                                                                                        new CompStmt(new LockStmt("q"), new CompStmt(new PrintStmt(new ReadHeapExp(new VarExp("v2"))), new UnlockStmt("q"))))))))))))))))))));
         programs.add(ex1);
         programs.add(ex2);
         programs.add(ex3);
@@ -222,6 +240,7 @@ public class StartingWindowController implements Initializable {
         programs.add(ex8);
         programs.add(ex9);
         programs.add(ex10);
+        programs.add(ex11);
 
         return programs;
     }

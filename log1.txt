@@ -525,3 +525,117 @@ v->2
 	    File Table:
 	    Heap:
 
+------- Program #1 -------
+	    ExeStack:
+int v
+
+v=2
+
+print(v)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int v
+v=2
+
+print(v)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int v
+v=2
+
+print(v)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+v=2
+
+print(v)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+v=2
+
+print(v)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+v=2
+print(v)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+v=2
+print(v)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+print(v)
+	    Symtbl:
+v->2
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+print(v)
+	    Symtbl:
+v->2
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+
+	    Symtbl:
+v->2
+	    Out:
+2
+	    File Table:
+	    Heap:
+	    Lock Table:
+

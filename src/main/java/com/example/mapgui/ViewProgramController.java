@@ -5,6 +5,7 @@ import Model.Exception.MyException;
 import Model.ExeStack.MyIStack;
 import Model.Heap.IHeap;
 import Model.IStmt.IStmt;
+import Model.LockTable.ILockTable;
 import Model.Out.MyIList;
 import Model.PrgState.PrgState;
 import Model.SymTable.MyIDictionary;
@@ -57,6 +58,9 @@ public class ViewProgramController{
     @FXML
     private Button runOneStepButton;
 
+    @FXML
+    private TableView<Pair<Integer,Integer>> lockTable;
+
     public void setController(Controller controller) {
         this.controller=controller;
         this.init();
@@ -74,6 +78,12 @@ public class ViewProgramController{
     @FXML
     private TableColumn<Pair<Integer,Value>, String> valueColumnHeapTbl;
 
+    //lockTable
+    @FXML
+    private TableColumn<Pair<Integer,Integer>, Integer> indexColumn;
+    @FXML
+    private TableColumn<Pair<Integer,Integer>, Integer> prgStateColumn;
+
     @FXML
     private void initialize(){
         this.prgStatesList.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
@@ -87,6 +97,11 @@ public class ViewProgramController{
                 new ReadOnlyIntegerWrapper(cellData.getValue().first).asObject());
         valueColumnHeapTbl.setCellValueFactory(cellData ->
                 new ReadOnlyObjectWrapper<>(cellData.getValue().second.toString()));
+
+        indexColumn.setCellValueFactory(cellData ->
+                new ReadOnlyIntegerWrapper(cellData.getValue().first).asObject());
+        prgStateColumn.setCellValueFactory(cellData ->
+                new ReadOnlyIntegerWrapper(cellData.getValue().second).asObject());
     }
     public void init() {
         List<PrgState> prgStates=controller.getPrgStates();
@@ -95,6 +110,7 @@ public class ViewProgramController{
         this.populateHeapTable();
         this.populateOutList();
         this.populateFileTable();
+        this.populateLockTable();
     }
 
     public PrgState getSelectedPrgState(){
@@ -117,6 +133,14 @@ public class ViewProgramController{
         IHeap<Integer,Value> heap=crtPrg.getHeap();
         for(Map.Entry<Integer,Value> entry: heap.getContent().entrySet()){
             this.heapTable.getItems().add(new Pair<>(entry.getKey(), entry.getValue()));
+        }
+    }
+    public void populateLockTable(){
+        this.lockTable.getItems().clear();
+        PrgState crtPrg=controller.getPrgStates().getFirst();
+        ILockTable<Integer,Integer> lockTable=crtPrg.getLockTable();
+        for(Map.Entry<Integer,Integer> entry: lockTable.getContent().entrySet()){
+            this.lockTable.getItems().add(new Pair<>(entry.getKey(), entry.getValue()));
         }
     }
     public void populateOutList() {
@@ -170,19 +194,17 @@ public class ViewProgramController{
     public void runOneStepHandler() {
         List<PrgState> prgStates=controller.getPrgStates();
         try{
-
-
                 this.controller.oneStep();
                 populateHeapTable();
                 populateOutList();
                 populateFileTable();
+                populateLockTable();
                 this.symTable.getItems().clear();
                 this.exeStack.getItems().clear();
                 prgStates = controller.removeCompletedPrg(controller.getPrgStates());
                 controller.setPrgStates(prgStates);
                 this.prgStatesNumber.setText(String.valueOf(prgStates.size()));
                 populatePrgStatesList();
-
 
             if (prgStates.isEmpty()){
                 this.runOneStepButton.setDisable(true);
