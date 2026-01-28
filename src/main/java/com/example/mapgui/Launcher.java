@@ -6,6 +6,8 @@ import javafx.application.Application;
 // ---- 8 dec 25 ---- 4'30
 // ---- 9 dec 25 ---- 4'30
 // ---- 12 dec 25 ---- 1
+
+// SwitchStmt 37 min
 public class Launcher {
     public static void main(String[] args) {
         Application.launch(StartingWindow.class, args);

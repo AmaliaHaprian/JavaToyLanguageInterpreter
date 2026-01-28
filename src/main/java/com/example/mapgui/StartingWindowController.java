@@ -211,7 +211,19 @@ public class StartingWindowController implements Initializable {
                                                                 new CompStmt(new PrintStmt(new ReadHeapExp(new VarExp("a"))),
                                                                         new CompStmt(new PrintStmt(new VarExp("v")),
                                                                                 new PrintStmt(new ReadHeapExp(new VarExp("a"))))))))))));
-
+        IStmt ex11=new CompStmt(new VarDeclStmt("a", new IntType()),
+                new CompStmt(new VarDeclStmt("b", new IntType()),
+                        new CompStmt(new VarDeclStmt("c", new IntType()),
+                                new CompStmt(new AssignStmt("a", new ValueExp(new IntValue(1))),
+                                        new CompStmt(new AssignStmt("b", new ValueExp(new IntValue(2))),
+                                                new CompStmt(new AssignStmt("c", new ValueExp(new IntValue(5))),
+                                                        new CompStmt(new SwitchStmt(new ArithExp(new VarExp("a"), new ValueExp(new IntValue(10)), '*'),
+                                                                new ArithExp(new VarExp("b"), new VarExp("c"), '*'),
+                                                                new CompStmt(new PrintStmt(new VarExp("a")), new PrintStmt(new VarExp("b"))),
+                                                                new ValueExp(new IntValue(10)),
+                                                                new CompStmt(new PrintStmt(new ValueExp(new IntValue(100))), new PrintStmt(new ValueExp(new IntValue(200)))),
+                                                                new PrintStmt(new ValueExp(new IntValue(300)))),
+                                                                new PrintStmt(new ValueExp(new IntValue(300))))))))));
         programs.add(ex1);
         programs.add(ex2);
         programs.add(ex3);
@@ -222,7 +234,7 @@ public class StartingWindowController implements Initializable {
         programs.add(ex8);
         programs.add(ex9);
         programs.add(ex10);
-
+        programs.add(ex11);
         return programs;
     }
 
