@@ -1,6 +1,8 @@
 package com.example.mapgui;
 
 import Controller.Controller;
+import Model.LatchTable.LatchTable;
+import Model.LatchTable.ILatchTable;
 import Model.Exception.MyException;
 import Model.ExeStack.MyIStack;
 import Model.ExeStack.MyStack;
@@ -20,7 +22,6 @@ import Model.Value.StringValue;
 import Model.Value.Value;
 import Repository.IRepository;
 import Repository.Repository;
-import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -75,10 +76,10 @@ public class StartingWindowController implements Initializable {
             MyIList<Value> out=new MyList<Value>();
             MyIDictionary<StringValue, BufferedReader> fileTbl=new MyDictionary<StringValue, BufferedReader>();
             IHeap<Integer,Value> heap=new Heap<Integer,Value>();
-
+            ILatchTable<Integer,Integer> countDownLatch=new LatchTable();
             PrgState prg= null;
             try {
-                prg=new PrgState(stk, symtbl, out,selectedStmt,fileTbl,heap);
+                prg=new PrgState(stk, symtbl, out,selectedStmt,fileTbl,heap,countDownLatch );
             } catch (MyException e) {
                 System.out.println(e.getMessage());
             }
@@ -212,6 +213,27 @@ public class StartingWindowController implements Initializable {
                                                                         new CompStmt(new PrintStmt(new VarExp("v")),
                                                                                 new PrintStmt(new ReadHeapExp(new VarExp("a"))))))))))));
 
+        IStmt ex11=new CompStmt(new VarDeclStmt("v1", new RefType(new IntType())),
+                new CompStmt(new VarDeclStmt("v2", new RefType(new IntType())),
+                        new CompStmt(new VarDeclStmt("v3", new RefType(new IntType())),
+                                new CompStmt(new VarDeclStmt("cnt", new IntType()),
+                                        new CompStmt(new NewStmt("v1", new ValueExp(new IntValue(2))),
+                                                new CompStmt(new NewStmt("v2", new ValueExp(new IntValue(3))),
+                                                        new CompStmt(new NewStmt("v3", new ValueExp(new IntValue(4))),
+                                                                new CompStmt(new NewLatchStmt("cnt", new ReadHeapExp(new VarExp("v2"))),
+                                                                        new CompStmt(new ForkStmt(new WriteHeapStmt("v1", new ArithExp(new ReadHeapExp(new VarExp("v2")), new ValueExp(new IntValue(10)), '*'))),
+                                                                                new CompStmt(new PrintStmt(new ReadHeapExp(new VarExp("v1"))),
+                                                                                        new CompStmt(new CountDownStmt("cnt"),
+                                                                                                new CompStmt(new ForkStmt(new WriteHeapStmt("v2", new ArithExp(new ReadHeapExp(new VarExp("v2")), new ValueExp(new IntValue(10)), '*'))),
+                                                                                                        new CompStmt(new PrintStmt(new ReadHeapExp(new VarExp("v2"))),
+                                                                                                                new CompStmt(new CountDownStmt("cnt"),
+                                                                                                                        new CompStmt(new ForkStmt(new WriteHeapStmt("v3", new ArithExp(new ReadHeapExp(new VarExp("v3")), new ValueExp(new IntValue(10)), '*'))),
+                                                                                                                                new CompStmt(new PrintStmt(new ReadHeapExp(new VarExp("v3"))),
+                                                                                                                                        new CompStmt(new CountDownStmt("cnt"),
+                                                                                                                                                new CompStmt(new AwaitStmt("cnt"),
+                                                                                                                                                        new CompStmt(new PrintStmt(new ValueExp(new IntValue(100))),
+                                                                                                                                                                new CompStmt(new CountDownStmt("cnt"),
+                                                                                                                                                                        new PrintStmt(new ValueExp(new IntValue(100)))))))))))))))))))))));
         programs.add(ex1);
         programs.add(ex2);
         programs.add(ex3);
@@ -222,7 +244,7 @@ public class StartingWindowController implements Initializable {
         programs.add(ex8);
         programs.add(ex9);
         programs.add(ex10);
-
+        programs.add(ex11);
         return programs;
     }
 
