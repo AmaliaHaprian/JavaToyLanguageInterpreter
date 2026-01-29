@@ -6,12 +6,16 @@ import Model.ExeStack.MyStack;
 import Model.Heap.IHeap;
 import Model.Out.MyIList;
 import Model.PrgState.PrgState;
+import Model.SemaphoreTable.ISemaphoreTable;
 import Model.SymTable.MyIDictionary;
 import Model.Type.Type;
 import Model.Value.StringValue;
 import Model.Value.Value;
+import Pair.Pair;
 
 import java.io.BufferedReader;
+import java.util.ArrayList;
+import java.util.Vector;
 
 import static java.lang.IO.println;
 
@@ -34,7 +38,7 @@ public class ForkStmt implements IStmt {
         IHeap<Integer, Value> newHeap=state.getHeap();
         MyIDictionary<StringValue, BufferedReader> newFileTable=state.getFileTable();
         MyIList<Value> newOut=state.getOut();
-        PrgState newState=new PrgState(newStack,newSymTbl,newOut,stmt,newFileTable,newHeap);
+        PrgState newState=new PrgState(newStack,newSymTbl,newOut,stmt,newFileTable,newHeap, state.getSemaphoreTable());
         return newState;
     }
     public MyIDictionary<String, Type> typecheck(MyIDictionary<String, Type> typeEnv) throws MyException{

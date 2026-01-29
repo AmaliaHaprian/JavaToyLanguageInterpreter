@@ -11,6 +11,8 @@ import Model.IStmt.*;
 import Model.Out.MyIList;
 import Model.Out.MyList;
 import Model.PrgState.PrgState;
+import Model.SemaphoreTable.ISemaphoreTable;
+import Model.SemaphoreTable.SemaphoreTable;
 import Model.SymTable.MyDictionary;
 import Model.SymTable.MyIDictionary;
 import Model.Type.*;
@@ -18,6 +20,7 @@ import Model.Value.BoolValue;
 import Model.Value.IntValue;
 import Model.Value.StringValue;
 import Model.Value.Value;
+import Pair.Pair;
 import Repository.IRepository;
 import Repository.Repository;
 import javafx.collections.ObservableList;
@@ -38,6 +41,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
+import java.util.Vector;
 
 public class StartingWindowController implements Initializable {
     @FXML
@@ -75,10 +79,10 @@ public class StartingWindowController implements Initializable {
             MyIList<Value> out=new MyList<Value>();
             MyIDictionary<StringValue, BufferedReader> fileTbl=new MyDictionary<StringValue, BufferedReader>();
             IHeap<Integer,Value> heap=new Heap<Integer,Value>();
-
+            ISemaphoreTable<Integer, Pair<Integer, ArrayList<Integer>>> semaphoreTable=new SemaphoreTable();
             PrgState prg= null;
             try {
-                prg=new PrgState(stk, symtbl, out,selectedStmt,fileTbl,heap);
+                prg=new PrgState(stk, symtbl, out,selectedStmt,fileTbl,heap,semaphoreTable);
             } catch (MyException e) {
                 System.out.println(e.getMessage());
             }
@@ -91,7 +95,6 @@ public class StartingWindowController implements Initializable {
             ViewProgramController viewController=loader.getController();
             viewController.setController(ctr);
 
-            System.out.println("Created controller");
             Stage stage=new Stage();
             stage.setTitle("View Program Window");
             stage.setScene(new Scene(root));
@@ -212,6 +215,20 @@ public class StartingWindowController implements Initializable {
                                                                         new CompStmt(new PrintStmt(new VarExp("v")),
                                                                                 new PrintStmt(new ReadHeapExp(new VarExp("a"))))))))))));
 
+        IStmt exp11=new CompStmt(new VarDeclStmt("v1", new RefType(new IntType())),
+                new CompStmt(new VarDeclStmt("cnt", new IntType()),
+                        new CompStmt(new NewStmt("v1", new ValueExp(new IntValue(1))),
+                                new CompStmt(new CreateSemaphoreStmt("cnt", new ReadHeapExp(new VarExp("v1"))),
+                                        new CompStmt(new ForkStmt(new CompStmt(new AcquireStmt("cnt"),
+                                                                        new CompStmt(new WriteHeapStmt("v1", new ArithExp(new ReadHeapExp(new VarExp("v1")), new ValueExp(new IntValue(10)), '*')),
+                                                                                new CompStmt(new PrintStmt(new ReadHeapExp(new VarExp("v1"))), new ReleaseStmt("cnt"))))),
+                                                new CompStmt(new ForkStmt(new CompStmt(new AcquireStmt("cnt"),
+                                                                                new CompStmt(new WriteHeapStmt("v1", new ArithExp(new ReadHeapExp(new VarExp("v1")), new ValueExp(new IntValue(10)), '*')),
+                                                                                        new CompStmt(new WriteHeapStmt("v1", new ArithExp(new ReadHeapExp(new VarExp("v1")), new ValueExp(new IntValue(2)), '*')),
+                                                                                                new CompStmt(new PrintStmt(new ReadHeapExp(new VarExp("v1"))), new ReleaseStmt("cnt")))))),
+                                                        new CompStmt(new AcquireStmt("cnt"),
+                                                                new CompStmt(new PrintStmt(new ArithExp(new ReadHeapExp(new VarExp("v1")), new ValueExp(new IntValue(1)), '-')),
+                                                                        new ReleaseStmt("cnt")))))))));
         programs.add(ex1);
         programs.add(ex2);
         programs.add(ex3);
@@ -222,7 +239,7 @@ public class StartingWindowController implements Initializable {
         programs.add(ex8);
         programs.add(ex9);
         programs.add(ex10);
-
+        programs.add(exp11);
         return programs;
     }
 

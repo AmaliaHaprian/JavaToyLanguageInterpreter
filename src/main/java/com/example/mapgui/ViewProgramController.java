@@ -7,9 +7,11 @@ import Model.Heap.IHeap;
 import Model.IStmt.IStmt;
 import Model.Out.MyIList;
 import Model.PrgState.PrgState;
+import Model.SemaphoreTable.ISemaphoreTable;
 import Model.SymTable.MyIDictionary;
 import Model.Value.StringValue;
 import Model.Value.Value;
+import Pair.Pair;
 import javafx.beans.property.ReadOnlyIntegerWrapper;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.beans.property.ReadOnlyStringWrapper;
@@ -17,19 +19,9 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 
 import java.io.BufferedReader;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
+import java.util.stream.Collectors;
 
-class Pair<T1,T2>{
-    T1 first;
-    T2 second;
-
-    public Pair(T1 first,T2 second){
-        this.first=first;
-        this.second=second;
-    }
-}
 public class ViewProgramController{
     private Controller controller;
 
@@ -57,10 +49,8 @@ public class ViewProgramController{
     @FXML
     private Button runOneStepButton;
 
-    public void setController(Controller controller) {
-        this.controller=controller;
-        this.init();
-    }
+    @FXML
+    private TableView<Pair<Integer, Pair<Integer, ArrayList<Integer>>>> semaphoreTable;
 
     //symTable
     @FXML
@@ -74,20 +64,41 @@ public class ViewProgramController{
     @FXML
     private TableColumn<Pair<Integer,Value>, String> valueColumnHeapTbl;
 
+    //semaphoreTable
+    @FXML
+    private TableColumn<Pair<Integer, Pair<Integer, ArrayList<Integer>>>, Integer> indexColumn;
+    @FXML
+    private TableColumn<Pair<Integer, Pair<Integer, ArrayList<Integer>>>, String> pairColumn;
+
     @FXML
     private void initialize(){
         this.prgStatesList.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
 
         variableNameColumn.setCellValueFactory(cellData ->
-                new ReadOnlyStringWrapper(cellData.getValue().first));
+                new ReadOnlyStringWrapper(cellData.getValue().getFirst()));
         valueColumnSymTbl.setCellValueFactory(cellData ->
-                new ReadOnlyObjectWrapper<>(cellData.getValue().second.toString()));
+                new ReadOnlyObjectWrapper<>(cellData.getValue().getSecond().toString()));
 
         addressColumn.setCellValueFactory(cellData ->
-                new ReadOnlyIntegerWrapper(cellData.getValue().first).asObject());
+                new ReadOnlyIntegerWrapper(cellData.getValue().getFirst()).asObject());
         valueColumnHeapTbl.setCellValueFactory(cellData ->
-                new ReadOnlyObjectWrapper<>(cellData.getValue().second.toString()));
+                new ReadOnlyObjectWrapper<>(cellData.getValue().getSecond().toString()));
+
+        indexColumn.setCellValueFactory(cellData ->
+                new ReadOnlyIntegerWrapper(cellData.getValue().getFirst()).asObject());
+        pairColumn.setCellValueFactory(cellData ->{
+                Pair<Integer, ArrayList<Integer>> inner=cellData.getValue().getSecond();
+                Integer innerIndex=inner.getFirst();
+                ArrayList<Integer> list=inner.getSecond();
+                String formatted=innerIndex + ": " + list;
+                return new ReadOnlyObjectWrapper<>(formatted);});
     }
+
+    public void setController(Controller controller) {
+        this.controller=controller;
+        this.init();
+    }
+
     public void init() {
         List<PrgState> prgStates=controller.getPrgStates();
         this.prgStatesNumber.setText(String.valueOf(prgStates.size()));
@@ -95,6 +106,8 @@ public class ViewProgramController{
         this.populateHeapTable();
         this.populateOutList();
         this.populateFileTable();
+        this.populateSymTable();
+        this.populateSemaphoreTable();
     }
 
     public PrgState getSelectedPrgState(){
@@ -117,6 +130,14 @@ public class ViewProgramController{
         IHeap<Integer,Value> heap=crtPrg.getHeap();
         for(Map.Entry<Integer,Value> entry: heap.getContent().entrySet()){
             this.heapTable.getItems().add(new Pair<>(entry.getKey(), entry.getValue()));
+        }
+    }
+    public void populateSemaphoreTable(){
+        this.semaphoreTable.getItems().clear();
+        PrgState crtPrg=controller.getPrgStates().getFirst();
+        ISemaphoreTable<Integer, Pair<Integer, ArrayList<Integer>>> semaphoreTbl= crtPrg.getSemaphoreTable();
+        for(Map.Entry<Integer, Pair<Integer, ArrayList<Integer>>> entry : semaphoreTbl.getContent().entrySet()){
+            this.semaphoreTable.getItems().add(new Pair<>(entry.getKey(), entry.getValue()));
         }
     }
     public void populateOutList() {
@@ -170,19 +191,17 @@ public class ViewProgramController{
     public void runOneStepHandler() {
         List<PrgState> prgStates=controller.getPrgStates();
         try{
-
-
                 this.controller.oneStep();
                 populateHeapTable();
                 populateOutList();
                 populateFileTable();
+                populateSemaphoreTable();
                 this.symTable.getItems().clear();
                 this.exeStack.getItems().clear();
                 prgStates = controller.removeCompletedPrg(controller.getPrgStates());
                 controller.setPrgStates(prgStates);
                 this.prgStatesNumber.setText(String.valueOf(prgStates.size()));
                 populatePrgStatesList();
-
 
             if (prgStates.isEmpty()){
                 this.runOneStepButton.setDisable(true);
