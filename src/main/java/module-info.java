@@ -3,6 +3,7 @@ module com.example.mapgui {
     requires javafx.fxml;
 
 
+
     opens com.example.mapgui to javafx.fxml;
     exports com.example.mapgui;
 }

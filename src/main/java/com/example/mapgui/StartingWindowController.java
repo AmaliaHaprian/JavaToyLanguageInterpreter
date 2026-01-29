@@ -212,6 +212,19 @@ public class StartingWindowController implements Initializable {
                                                                         new CompStmt(new PrintStmt(new VarExp("v")),
                                                                                 new PrintStmt(new ReadHeapExp(new VarExp("a"))))))))))));
 
+        IStmt ex11=new CompStmt(new VarDeclStmt("a", new RefType(new IntType())),
+                new CompStmt(new VarDeclStmt("b",new RefType(new IntType())),
+                        new CompStmt(new VarDeclStmt("v", new IntType()),
+                                new CompStmt(new NewStmt("a", new ValueExp(new IntValue(0))),
+                                        new CompStmt(new NewStmt("b", new ValueExp(new IntValue(0))),
+                                                new CompStmt(new WriteHeapStmt("a", new ValueExp(new IntValue(1))),
+                                                        new CompStmt(new WriteHeapStmt("b", new ValueExp(new IntValue(2))),
+                                                                new CompStmt(new CondAssignStmt("v", new RelationalExp(new ReadHeapExp(new VarExp("a")), new ReadHeapExp(new VarExp("b")), "<"),
+                                                                                                    new ValueExp(new IntValue(100)), new ValueExp(new IntValue(200))),
+                                                                        new CompStmt(new PrintStmt(new VarExp("v")),
+                                                                                new CompStmt(new CondAssignStmt("v",new RelationalExp(new ArithExp(new ReadHeapExp(new VarExp("b")), new ValueExp(new IntValue(2)), '-'),
+                                                                                                                                new ReadHeapExp(new VarExp("a")), ">"), new ValueExp(new IntValue(100)), new ValueExp(new IntValue(200))),
+                                                                                        new PrintStmt(new VarExp("v"))))))))))));
         programs.add(ex1);
         programs.add(ex2);
         programs.add(ex3);
@@ -222,7 +235,7 @@ public class StartingWindowController implements Initializable {
         programs.add(ex8);
         programs.add(ex9);
         programs.add(ex10);
-
+        programs.add(ex11);
         return programs;
     }
 
