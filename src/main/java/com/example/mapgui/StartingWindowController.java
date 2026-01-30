@@ -1,6 +1,8 @@
 package com.example.mapgui;
 
 import Controller.Controller;
+import Model.BarrierTable.BarrierTable;
+import Model.BarrierTable.IBarrierTable;
 import Model.Exception.MyException;
 import Model.ExeStack.MyIStack;
 import Model.ExeStack.MyStack;
@@ -18,9 +20,9 @@ import Model.Value.BoolValue;
 import Model.Value.IntValue;
 import Model.Value.StringValue;
 import Model.Value.Value;
+import Pair.Pair;
 import Repository.IRepository;
 import Repository.Repository;
-import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -38,6 +40,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
+import java.util.Vector;
 
 public class StartingWindowController implements Initializable {
     @FXML
@@ -75,10 +78,10 @@ public class StartingWindowController implements Initializable {
             MyIList<Value> out=new MyList<Value>();
             MyIDictionary<StringValue, BufferedReader> fileTbl=new MyDictionary<StringValue, BufferedReader>();
             IHeap<Integer,Value> heap=new Heap<Integer,Value>();
-
+            IBarrierTable<Integer, Pair<Integer, Vector<Integer>>> barrierTable=new BarrierTable();
             PrgState prg= null;
             try {
-                prg=new PrgState(stk, symtbl, out,selectedStmt,fileTbl,heap);
+                prg=new PrgState(stk, symtbl, out,selectedStmt,fileTbl,heap,barrierTable );
             } catch (MyException e) {
                 System.out.println(e.getMessage());
             }
@@ -212,6 +215,28 @@ public class StartingWindowController implements Initializable {
                                                                         new CompStmt(new PrintStmt(new VarExp("v")),
                                                                                 new PrintStmt(new ReadHeapExp(new VarExp("a"))))))))))));
 
+        IStmt ex11=new CompStmt(new VarDeclStmt("v", new IntType()),
+                new CompStmt(new AssignStmt("v", new ValueExp(new IntValue(1))),
+                        new CompStmt(new ForkStmt(new AssignStmt("v", new ValueExp(new IntValue(2)))),
+                                new ForkStmt(new AssignStmt("v", new ValueExp(new IntValue(3)))))));
+
+        IStmt ex12=new CompStmt(new VarDeclStmt("v1", new RefType(new IntType())),
+                new CompStmt(new VarDeclStmt("v2", new RefType(new IntType())),
+                        new CompStmt(new VarDeclStmt("v3", new RefType(new IntType())),
+                                new CompStmt(new VarDeclStmt("cnt", new IntType()),
+                                        new CompStmt(new NewStmt("v1", new ValueExp(new IntValue(2))),
+                                                new CompStmt(new NewStmt("v2", new ValueExp(new IntValue(3))),
+                                                        new CompStmt(new NewStmt("v3", new ValueExp(new IntValue(4))),
+                                                                new CompStmt(new NewBarrierStmt("cnt", new ReadHeapExp(new VarExp("v2"))),
+                                                                        new CompStmt(new ForkStmt(new CompStmt(new AwaitStmt("cnt"),
+                                                                                                                    new CompStmt(new WriteHeapStmt("v1", new ArithExp(new ReadHeapExp(new VarExp("v1")), new ValueExp(new IntValue(10)), '*')),
+                                                                                                                                    new PrintStmt(new ReadHeapExp(new VarExp("v1")))))),
+                                                                                new CompStmt(new ForkStmt(new CompStmt(new AwaitStmt("cnt"),
+                                                                                                                        new CompStmt(new WriteHeapStmt("v2", new ArithExp(new ReadHeapExp(new VarExp("v2")), new ValueExp(new IntValue(10)), '*')),
+                                                                                                                                new CompStmt(new WriteHeapStmt("v2", new ArithExp(new ReadHeapExp(new VarExp("v2")), new ValueExp(new IntValue(10)), '*')),
+                                                                                                                                        new PrintStmt(new ReadHeapExp(new VarExp("v2"))))) )),
+                                                                                        new CompStmt(new AwaitStmt("cnt"),
+                                                                                                new PrintStmt(new ReadHeapExp(new VarExp("v3"))))))))))))));
         programs.add(ex1);
         programs.add(ex2);
         programs.add(ex3);
@@ -222,7 +247,8 @@ public class StartingWindowController implements Initializable {
         programs.add(ex8);
         programs.add(ex9);
         programs.add(ex10);
-
+        programs.add(ex11);
+        programs.add(ex12);
         return programs;
     }
 

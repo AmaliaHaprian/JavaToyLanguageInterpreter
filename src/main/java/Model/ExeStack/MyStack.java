@@ -88,7 +88,6 @@ public class MyStack<T> implements MyIStack<T> {
         Collections.reverse(reversed);
         for(T elem:reversed){
             InOrderList((IStmt) elem, (List<IStmt>) list);
-            System.out.println(list);
         }
         return list;
     }

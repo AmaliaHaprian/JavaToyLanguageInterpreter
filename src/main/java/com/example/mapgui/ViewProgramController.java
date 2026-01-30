@@ -1,6 +1,7 @@
 package com.example.mapgui;
 
 import Controller.Controller;
+import Model.BarrierTable.IBarrierTable;
 import Model.Exception.MyException;
 import Model.ExeStack.MyIStack;
 import Model.Heap.IHeap;
@@ -10,9 +11,13 @@ import Model.PrgState.PrgState;
 import Model.SymTable.MyIDictionary;
 import Model.Value.StringValue;
 import Model.Value.Value;
+import Pair.Pair;
+import javafx.beans.Observable;
 import javafx.beans.property.ReadOnlyIntegerWrapper;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.beans.property.ReadOnlyStringWrapper;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 
@@ -20,16 +25,8 @@ import java.io.BufferedReader;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.Vector;
 
-class Pair<T1,T2>{
-    T1 first;
-    T2 second;
-
-    public Pair(T1 first,T2 second){
-        this.first=first;
-        this.second=second;
-    }
-}
 public class ViewProgramController{
     private Controller controller;
 
@@ -57,6 +54,9 @@ public class ViewProgramController{
     @FXML
     private Button runOneStepButton;
 
+    @FXML
+    private TableView<ObservableList<String>> barrierTable;
+
     public void setController(Controller controller) {
         this.controller=controller;
         this.init();
@@ -74,19 +74,34 @@ public class ViewProgramController{
     @FXML
     private TableColumn<Pair<Integer,Value>, String> valueColumnHeapTbl;
 
+    //barrierTable
+    @FXML
+    private TableColumn<ObservableList<String>, String> indexColumn;
+    @FXML
+    private TableColumn<ObservableList<String>, String> valueColumnBarrierTable;
+    @FXML
+    private TableColumn<ObservableList<String>, String> listColumnBarrierTable;
+
     @FXML
     private void initialize(){
         this.prgStatesList.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
 
         variableNameColumn.setCellValueFactory(cellData ->
-                new ReadOnlyStringWrapper(cellData.getValue().first));
+                new ReadOnlyStringWrapper(cellData.getValue().getFirst()));
         valueColumnSymTbl.setCellValueFactory(cellData ->
-                new ReadOnlyObjectWrapper<>(cellData.getValue().second.toString()));
+                new ReadOnlyObjectWrapper<>(cellData.getValue().getSecond().toString()));
 
         addressColumn.setCellValueFactory(cellData ->
-                new ReadOnlyIntegerWrapper(cellData.getValue().first).asObject());
+                new ReadOnlyIntegerWrapper(cellData.getValue().getFirst()).asObject());
         valueColumnHeapTbl.setCellValueFactory(cellData ->
-                new ReadOnlyObjectWrapper<>(cellData.getValue().second.toString()));
+                new ReadOnlyObjectWrapper<>(cellData.getValue().getSecond().toString()));
+
+        indexColumn.setCellValueFactory(cellData ->
+                new ReadOnlyStringWrapper(cellData.getValue().get(0)));
+        valueColumnBarrierTable.setCellValueFactory(cellData ->
+                new ReadOnlyStringWrapper(cellData.getValue().get(1)));
+        listColumnBarrierTable.setCellValueFactory(cellData ->
+                new ReadOnlyStringWrapper(cellData.getValue().get(2)));
     }
     public void init() {
         List<PrgState> prgStates=controller.getPrgStates();
@@ -95,6 +110,7 @@ public class ViewProgramController{
         this.populateHeapTable();
         this.populateOutList();
         this.populateFileTable();
+        this.populateBarrierTable();
     }
 
     public PrgState getSelectedPrgState(){
@@ -138,7 +154,24 @@ public class ViewProgramController{
             this.fileTable.getItems().add(fileName);
         }
     }
-
+    public void populateBarrierTable(){
+        this.fileTable.getItems().clear();
+        PrgState crtPrg=controller.getPrgStates().getFirst();
+        IBarrierTable<Integer, Pair<Integer, Vector<Integer>>> barrierTbl=crtPrg.getBarrierTable();
+        ObservableList<ObservableList<String>> data = FXCollections.observableArrayList();
+        for(Map.Entry<Integer,Pair<Integer,Vector<Integer>>> entry: barrierTbl.getContent().entrySet()){
+            Integer key=entry.getKey();
+            Integer first=entry.getValue().getFirst();
+            Vector<Integer> values=entry.getValue().getSecond();
+            ObservableList<String> row= FXCollections.observableArrayList(
+                    key.toString(),
+                    first.toString(),
+                    values.toString()
+            );
+            data.add(row);
+            this.barrierTable.setItems(data);
+        }
+    }
     public void populateSymTable(){
         this.symTable.getItems().clear();
         PrgState selectedPrgState=getSelectedPrgState();
@@ -176,6 +209,7 @@ public class ViewProgramController{
                 populateHeapTable();
                 populateOutList();
                 populateFileTable();
+                populateBarrierTable();
                 this.symTable.getItems().clear();
                 this.exeStack.getItems().clear();
                 prgStates = controller.removeCompletedPrg(controller.getPrgStates());

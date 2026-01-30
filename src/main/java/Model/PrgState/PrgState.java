@@ -1,19 +1,18 @@
 package Model.PrgState;
 
-import Model.Exception.ADT.EmptyCollection;
-import Model.Exception.ADT.FullCollection;
+import Model.BarrierTable.IBarrierTable;
 import Model.Exception.MyException;
 import Model.ExeStack.MyIStack;
-import Model.Heap.Heap;
 import Model.Heap.IHeap;
 import Model.IStmt.IStmt;
 import Model.Out.MyIList;
 import Model.SymTable.MyIDictionary;
 import Model.Value.StringValue;
 import Model.Value.Value;
+import Pair.Pair;
 
 import java.io.BufferedReader;
-import java.util.ArrayList;
+import java.util.Vector;
 
 public class PrgState {
     static int nextId;
@@ -25,14 +24,16 @@ public class PrgState {
     IStmt originalProgram;
     private MyIDictionary<StringValue, BufferedReader> fileTable;
     private IHeap<Integer,Value> heap;
+    private IBarrierTable<Integer, Pair<Integer, Vector<Integer>>> barrierTable;
 
-    public PrgState(MyIStack<IStmt> stk, MyIDictionary<String, Value> symtbl, MyIList<Value> ot, IStmt prg, MyIDictionary<StringValue, BufferedReader> fileTable, IHeap<Integer,Value> heap) throws MyException {
+    public PrgState(MyIStack<IStmt> stk, MyIDictionary<String, Value> symtbl, MyIList<Value> ot, IStmt prg, MyIDictionary<StringValue, BufferedReader> fileTable, IHeap<Integer,Value> heap, IBarrierTable<Integer, Pair<Integer, Vector<Integer>>> barrierTable) throws MyException {
         this.exeStack = stk;
         this.symTable = symtbl;
         this.out = ot;
         this.originalProgram = deepCopy(prg);
         this.fileTable = fileTable;
         this.heap = heap;
+        this.barrierTable = barrierTable;
         this.id=getId();
         stk.push(prg);
     }
@@ -54,6 +55,7 @@ public class PrgState {
         return this.fileTable;
     }
     public IHeap<Integer,Value> getHeap(){ return this.heap; }
+    public IBarrierTable<Integer, Pair<Integer, Vector<Integer>>> getBarrierTable(){return this.barrierTable;}
     public void setStk(MyIStack<IStmt> stk){
         this.exeStack = stk;
     }
@@ -91,6 +93,10 @@ public class PrgState {
         IHeap<Integer,Value> heap=this.getHeap();
         s+="\t    Heap:\n";
         s+=heap.toString();
+
+        IBarrierTable<Integer, Pair<Integer, Vector<Integer>>> barrierTable=this.getBarrierTable();
+        s+="\t    BarrierTable:\n";
+        s+=barrierTable.toString();
     return s;
     }
 
