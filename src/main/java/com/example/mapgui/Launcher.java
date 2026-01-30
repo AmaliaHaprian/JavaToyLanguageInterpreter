@@ -7,7 +7,7 @@ import javafx.application.Application;
 // ---- 9 dec 25 ---- 4'30
 // ---- 12 dec 25 ---- 1
 
-// CountDownLatch 55min
+// CountDownLatch 1 55min
 public class Launcher {
     public static void main(String[] args) {
         Application.launch(StartingWindow.class, args);
