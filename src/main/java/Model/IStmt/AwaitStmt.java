@@ -25,7 +25,7 @@ public class AwaitStmt implements IStmt {
         MyIStack<IStmt> stk=state.getStk();
         ILatchTable<Integer,Integer> latchTable=state.getLatchTable();
 
-        if(tbl.isDefined(var) && tbl.lookup(var) instanceof IntType){
+        if(tbl.isDefined(var) && tbl.lookup(var).getType() instanceof IntType){
             IntValue val=(IntValue) tbl.lookup(var);
             Integer foundIndex=val.getVal();
             if(!(latchTable.isDefined(foundIndex)))

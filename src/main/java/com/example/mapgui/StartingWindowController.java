@@ -221,19 +221,19 @@ public class StartingWindowController implements Initializable {
                                                 new CompStmt(new NewStmt("v2", new ValueExp(new IntValue(3))),
                                                         new CompStmt(new NewStmt("v3", new ValueExp(new IntValue(4))),
                                                                 new CompStmt(new NewLatchStmt("cnt", new ReadHeapExp(new VarExp("v2"))),
-                                                                        new CompStmt(new ForkStmt(new WriteHeapStmt("v1", new ArithExp(new ReadHeapExp(new VarExp("v2")), new ValueExp(new IntValue(10)), '*'))),
-                                                                                new CompStmt(new PrintStmt(new ReadHeapExp(new VarExp("v1"))),
-                                                                                        new CompStmt(new CountDownStmt("cnt"),
-                                                                                                new CompStmt(new ForkStmt(new WriteHeapStmt("v2", new ArithExp(new ReadHeapExp(new VarExp("v2")), new ValueExp(new IntValue(10)), '*'))),
-                                                                                                        new CompStmt(new PrintStmt(new ReadHeapExp(new VarExp("v2"))),
-                                                                                                                new CompStmt(new CountDownStmt("cnt"),
-                                                                                                                        new CompStmt(new ForkStmt(new WriteHeapStmt("v3", new ArithExp(new ReadHeapExp(new VarExp("v3")), new ValueExp(new IntValue(10)), '*'))),
+                                                                        new CompStmt(new ForkStmt(new CompStmt(new WriteHeapStmt("v1", new ArithExp(new ReadHeapExp(new VarExp("v1")), new ValueExp(new IntValue(10)), '*')),
+                                                                                                                new CompStmt(new PrintStmt(new ReadHeapExp(new VarExp("v1"))),
+                                                                                                                            new CountDownStmt("cnt")))),
+                                                                                                new CompStmt(new ForkStmt(new CompStmt(new WriteHeapStmt("v2", new ArithExp(new ReadHeapExp(new VarExp("v2")), new ValueExp(new IntValue(10)), '*')),
+                                                                                                                                        new CompStmt(new PrintStmt(new ReadHeapExp(new VarExp("v2"))),
+                                                                                                                                                new CountDownStmt("cnt")))),
+                                                                                                                        new CompStmt(new ForkStmt(new CompStmt(new WriteHeapStmt("v3", new ArithExp(new ReadHeapExp(new VarExp("v3")), new ValueExp(new IntValue(10)), '*')),
                                                                                                                                 new CompStmt(new PrintStmt(new ReadHeapExp(new VarExp("v3"))),
-                                                                                                                                        new CompStmt(new CountDownStmt("cnt"),
+                                                                                                                                            new CountDownStmt("cnt")))),
                                                                                                                                                 new CompStmt(new AwaitStmt("cnt"),
                                                                                                                                                         new CompStmt(new PrintStmt(new ValueExp(new IntValue(100))),
                                                                                                                                                                 new CompStmt(new CountDownStmt("cnt"),
-                                                                                                                                                                        new PrintStmt(new ValueExp(new IntValue(100)))))))))))))))))))))));
+                                                                                                                                                                        new PrintStmt(new ValueExp(new IntValue(100)))))))))))))))));
         programs.add(ex1);
         programs.add(ex2);
         programs.add(ex3);

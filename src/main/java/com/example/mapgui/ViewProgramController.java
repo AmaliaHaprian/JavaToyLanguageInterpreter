@@ -5,6 +5,7 @@ import Model.Exception.MyException;
 import Model.ExeStack.MyIStack;
 import Model.Heap.IHeap;
 import Model.IStmt.IStmt;
+import Model.LatchTable.ILatchTable;
 import Model.Out.MyIList;
 import Model.PrgState.PrgState;
 import Model.SymTable.MyIDictionary;
@@ -57,6 +58,9 @@ public class ViewProgramController{
     @FXML
     private Button runOneStepButton;
 
+    @FXML
+    private TableView<Pair<Integer,Integer>> latchTable;
+
     public void setController(Controller controller) {
         this.controller=controller;
         this.init();
@@ -74,6 +78,12 @@ public class ViewProgramController{
     @FXML
     private TableColumn<Pair<Integer,Value>, String> valueColumnHeapTbl;
 
+    //latchTable
+    @FXML
+    private TableColumn<Pair<Integer,Integer>, Integer> indexColumn;
+    @FXML
+    private TableColumn<Pair<Integer,Integer>, Integer> valueColumnLatchTbl;
+
     @FXML
     private void initialize(){
         this.prgStatesList.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
@@ -87,6 +97,12 @@ public class ViewProgramController{
                 new ReadOnlyIntegerWrapper(cellData.getValue().first).asObject());
         valueColumnHeapTbl.setCellValueFactory(cellData ->
                 new ReadOnlyObjectWrapper<>(cellData.getValue().second.toString()));
+
+        indexColumn.setCellValueFactory(cellData ->
+                new ReadOnlyIntegerWrapper(cellData.getValue().first).asObject());
+        valueColumnLatchTbl.setCellValueFactory(cellData ->
+                new ReadOnlyIntegerWrapper(cellData.getValue().second).asObject());
+
     }
     public void init() {
         List<PrgState> prgStates=controller.getPrgStates();
@@ -95,6 +111,7 @@ public class ViewProgramController{
         this.populateHeapTable();
         this.populateOutList();
         this.populateFileTable();
+        this.populateSymTable();
     }
 
     public PrgState getSelectedPrgState(){
@@ -148,7 +165,15 @@ public class ViewProgramController{
             this.symTable.getItems().add(new Pair<>(entry.getKey(), entry.getValue()));
         }
     }
+    public void populateLatchTable(){
+        this.latchTable.getItems().clear();
+        PrgState crtPrg=controller.getPrgStates().getFirst();
+        ILatchTable<Integer,Integer> latchTable=crtPrg.getLatchTable();
+        for(Map.Entry<Integer,Integer> entry: latchTable.getContent().entrySet()){
+            this.latchTable.getItems().add(new Pair<>(entry.getKey(), entry.getValue()));
+        }
 
+    }
     public void populateExeStack(){
         this.exeStack.getItems().clear();
         PrgState selectedPrgState=getSelectedPrgState();
@@ -176,6 +201,7 @@ public class ViewProgramController{
                 populateHeapTable();
                 populateOutList();
                 populateFileTable();
+                populateLatchTable();
                 this.symTable.getItems().clear();
                 this.exeStack.getItems().clear();
                 prgStates = controller.removeCompletedPrg(controller.getPrgStates());

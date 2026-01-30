@@ -27,7 +27,7 @@ public class CountDownStmt implements IStmt {
         ILatchTable<Integer,Integer> latchTable=state.getLatchTable();
         MyIList<Value> out=state.getOut();
 
-        if(tbl.isDefined(var) && tbl.lookup(var) instanceof IntType){
+        if(tbl.isDefined(var) && tbl.lookup(var).getType() instanceof IntType){
             IntValue val=(IntValue) tbl.lookup(var);
             Integer foundIndex=val.getVal();
             if(!(latchTable.isDefined(foundIndex)))

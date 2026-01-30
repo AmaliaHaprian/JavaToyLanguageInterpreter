@@ -1,0 +1,16340 @@
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v2)*10)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v2)*10)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v2)*10)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v2)*10)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v2)*10)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v2)*10)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v2)*10)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v2)*10)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->3
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v1,rH(v2)*10))
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v2)*10)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v2)*10)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)*10))
+
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)*10))
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)*10))
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v2))
+
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->3
+3->4
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v2))
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->4
+	    Latch Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->4
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v2))
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->4
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->4
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->4
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->4
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->4
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->4
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->4
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v3,rH(v3)*10))
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->4
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v3,rH(v3)*10))
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->4
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->4
+	    Latch Table:
+1->1
+
+------- Program #4 -------
+	    ExeStack:
+wH(v3,rH(v3)*10)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->4
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->4
+	    Latch Table:
+1->1
+
+------- Program #4 -------
+	    ExeStack:
+wH(v3,rH(v3)*10)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->4
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v3))
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #4 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v3))
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+print(100)
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+print(100)
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+1
+100
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+1
+100
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+1
+100
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+1
+100
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+1
+100
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+1
+100
+1
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+30
+1
+30
+1
+40
+1
+100
+1
+100
+	    File Table:
+	    Heap:
+1->30
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+print(rH(v1))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+print(rH(v1))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v3,rH(v3)*10))
+
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v3,rH(v3)*10))
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+print(rH(v2))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(v3,rH(v3)*10))
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+print(rH(v2))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+print(rH(v2))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->3
+
+------- Program #4 -------
+	    ExeStack:
+wH(v3,rH(v3)*10)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v3))
+
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+print(rH(v2))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->3
+
+------- Program #4 -------
+	    ExeStack:
+wH(v3,rH(v3)*10)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v3))
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->2
+
+------- Program #2 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+print(rH(v2))
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->2
+
+------- Program #4 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v3))
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+print(rH(v2))
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #3 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+1
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+1
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+1
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+1
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+1
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+1
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+print(100)
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+1
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+print(100)
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+1
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+1
+100
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+1
+100
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+1
+100
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+1
+100
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+1
+100
+1
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+1
+100
+1
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+40
+30
+3
+1
+100
+1
+100
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLatch(cnt,rH(v2))
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v1,rH(v1)*10),(print(rH(v1)),countDown(cnt))))
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+print(rH(v1))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v2,rH(v2)*10),(print(rH(v2)),countDown(cnt))))
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+print(rH(v1))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+print(rH(v2))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+fork((wH(v3,rH(v3)*10),(print(rH(v3)),countDown(cnt))))
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+print(rH(v2))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+print(rH(v2))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->3
+
+------- Program #4 -------
+	    ExeStack:
+wH(v3,rH(v3)*10)
+
+print(rH(v3))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+print(rH(v2))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->3
+
+------- Program #4 -------
+	    ExeStack:
+wH(v3,rH(v3)*10)
+
+print(rH(v3))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->2
+
+------- Program #2 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+print(rH(v2))
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->2
+
+------- Program #4 -------
+	    ExeStack:
+wH(v3,rH(v3)*10)
+print(rH(v3))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+print(rH(v2))
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->2
+
+------- Program #4 -------
+	    ExeStack:
+wH(v3,rH(v3)*10)
+print(rH(v3))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->2
+
+------- Program #4 -------
+	    ExeStack:
+print(rH(v3))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->2
+
+------- Program #4 -------
+	    ExeStack:
+print(rH(v3))
+
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #3 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #4 -------
+	    ExeStack:
+print(rH(v3))
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #4 -------
+	    ExeStack:
+print(rH(v3))
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #4 -------
+	    ExeStack:
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #4 -------
+	    ExeStack:
+countDown(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->1
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+4
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #4 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+4
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+4
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+4
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+print(100)
+
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+4
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+print(100)
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+4
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+print(100)
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+4
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+4
+100
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+4
+100
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+4
+100
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+countDown(cnt)
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+4
+100
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+4
+100
+1
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+print(100)
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+4
+100
+1
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+
+------- Program #1 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+20
+2
+30
+3
+40
+4
+100
+1
+100
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->40
+	    Latch Table:
+1->0
+

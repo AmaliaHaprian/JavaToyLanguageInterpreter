@@ -36,7 +36,7 @@ public class NewLatchStmt implements IStmt {
 
         if(!(tbl.isDefined(var) && tbl.lookup(var).getType() instanceof IntType ))
             throw new MyException("Variable "+var+" is not an integer");
-        tbl.update(var, new IntValue(num1));
+        tbl.update(var, new IntValue(location));
         return null;
     }
 
