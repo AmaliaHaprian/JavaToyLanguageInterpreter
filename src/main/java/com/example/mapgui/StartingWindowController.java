@@ -11,6 +11,8 @@ import Model.IStmt.*;
 import Model.Out.MyIList;
 import Model.Out.MyList;
 import Model.PrgState.PrgState;
+import Model.ProcTable.IProcTable;
+import Model.ProcTable.ProcTable;
 import Model.SymTable.MyDictionary;
 import Model.SymTable.MyIDictionary;
 import Model.Type.*;
@@ -18,9 +20,9 @@ import Model.Value.BoolValue;
 import Model.Value.IntValue;
 import Model.Value.StringValue;
 import Model.Value.Value;
+import Pair.Pair;
 import Repository.IRepository;
 import Repository.Repository;
-import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -36,6 +38,7 @@ import javafx.stage.Stage;
 import java.io.BufferedReader;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.ResourceBundle;
 
@@ -71,14 +74,23 @@ public class StartingWindowController implements Initializable {
             }
 
             MyIStack<IStmt> stk=new MyStack<IStmt>();
-            MyIDictionary<String, Value> symtbl=new MyDictionary<String, Value>();
+            //MyIDictionary<String, Value> symtbl=new MyDictionary<String, Value>();
+            MyIStack<MyIDictionary<String,Value>> symTblStack=new MyStack<>();
             MyIList<Value> out=new MyList<Value>();
             MyIDictionary<StringValue, BufferedReader> fileTbl=new MyDictionary<StringValue, BufferedReader>();
             IHeap<Integer,Value> heap=new Heap<Integer,Value>();
+            IProcTable procTable=new ProcTable();
+
+            IStmt istmt1=new CompStmt(new AssignStmt("v", new ArithExp(new VarExp("a"), new VarExp("b"), '+')),
+                    new PrintStmt(new VarExp("v")));
+            procTable.add("sum", new Pair<>(Arrays.asList("a", "b"),istmt1 ));
+            IStmt istmt2=new CompStmt(new AssignStmt("v", new ArithExp(new VarExp("a"), new VarExp("b"), '*')),
+                    new PrintStmt(new VarExp("v")));
+            procTable.add("product", new Pair<>(Arrays.asList("a", "b"),istmt2 ));
 
             PrgState prg= null;
             try {
-                prg=new PrgState(stk, symtbl, out,selectedStmt,fileTbl,heap);
+                prg=new PrgState(stk, symTblStack, out,selectedStmt,fileTbl,heap,procTable);
             } catch (MyException e) {
                 System.out.println(e.getMessage());
             }
@@ -212,6 +224,14 @@ public class StartingWindowController implements Initializable {
                                                                         new CompStmt(new PrintStmt(new VarExp("v")),
                                                                                 new PrintStmt(new ReadHeapExp(new VarExp("a"))))))))))));
 
+        IStmt ex11=new CompStmt(new VarDeclStmt("v", new IntType()),
+                new CompStmt(new VarDeclStmt("w", new IntType()),
+                        new CompStmt(new AssignStmt("v", new ValueExp(new IntValue(2))),
+                                new CompStmt(new AssignStmt("w", new ValueExp(new IntValue(5))),
+                                        new CompStmt(new CallStmt("sum", Arrays.asList(new ArithExp(new VarExp("v"),new ValueExp(new IntValue(10)), '*'), new VarExp("w"))),
+                                                new CompStmt(new PrintStmt(new VarExp("v")),
+                                                        new CompStmt(new ForkStmt(new CallStmt("product", Arrays.asList(new VarExp("v"), new VarExp("w")))),
+                                                                new ForkStmt(new CallStmt("sum", Arrays.asList(new VarExp("v"), new VarExp("w")))))))))));
         programs.add(ex1);
         programs.add(ex2);
         programs.add(ex3);
@@ -222,6 +242,7 @@ public class StartingWindowController implements Initializable {
         programs.add(ex8);
         programs.add(ex9);
         programs.add(ex10);
+        programs.add(ex11);
 
         return programs;
     }

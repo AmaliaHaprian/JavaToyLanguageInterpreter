@@ -1,38 +1,40 @@
 package Model.PrgState;
 
 import Model.Exception.ADT.EmptyCollection;
-import Model.Exception.ADT.FullCollection;
 import Model.Exception.MyException;
 import Model.ExeStack.MyIStack;
-import Model.Heap.Heap;
 import Model.Heap.IHeap;
 import Model.IStmt.IStmt;
 import Model.Out.MyIList;
+import Model.ProcTable.IProcTable;
 import Model.SymTable.MyIDictionary;
 import Model.Value.StringValue;
 import Model.Value.Value;
 
 import java.io.BufferedReader;
-import java.util.ArrayList;
 
 public class PrgState {
     static int nextId;
 
     private int id;
     private MyIStack<IStmt> exeStack;
-    private MyIDictionary<String, Value> symTable;
+    //private MyIDictionary<String, Value> symTable;
+    private MyIStack<MyIDictionary<String,Value>> symTblStack;
     private MyIList<Value> out;
     IStmt originalProgram;
     private MyIDictionary<StringValue, BufferedReader> fileTable;
     private IHeap<Integer,Value> heap;
+    private IProcTable procTable;
 
-    public PrgState(MyIStack<IStmt> stk, MyIDictionary<String, Value> symtbl, MyIList<Value> ot, IStmt prg, MyIDictionary<StringValue, BufferedReader> fileTable, IHeap<Integer,Value> heap) throws MyException {
+    public PrgState(MyIStack<IStmt> stk, MyIStack<MyIDictionary<String, Value>> symTblStack, MyIList<Value> ot, IStmt prg, MyIDictionary<StringValue, BufferedReader> fileTable, IHeap<Integer,Value> heap, IProcTable procTable) throws MyException {
         this.exeStack = stk;
-        this.symTable = symtbl;
+        //this.symTable = symtbl;
+        this.symTblStack = symTblStack;
         this.out = ot;
         this.originalProgram = deepCopy(prg);
         this.fileTable = fileTable;
         this.heap = heap;
+        this.procTable = procTable;
         this.id=getId();
         stk.push(prg);
     }
@@ -42,8 +44,13 @@ public class PrgState {
         return this.exeStack;
     }
     public MyIDictionary<String, Value> getSymtbl(){
-        return this.symTable;
+        try {
+            return this.symTblStack.peek();
+        } catch (EmptyCollection e) {
+            throw new RuntimeException(e);
+        }
     }
+    public MyIStack<MyIDictionary<String, Value>> getSymTblStack(){return this.symTblStack;}
     public MyIList<Value> getOut(){
         return this.out;
     }
@@ -54,11 +61,12 @@ public class PrgState {
         return this.fileTable;
     }
     public IHeap<Integer,Value> getHeap(){ return this.heap; }
+    public IProcTable getProcTable(){ return this.procTable; }
     public void setStk(MyIStack<IStmt> stk){
         this.exeStack = stk;
     }
     public void setSymtbl(MyIDictionary<String, Value> symtbl){
-        this.symTable = symtbl;
+    //    this.symTable = symtbl;
     }
     public void setOut(MyIList<Value> out){
         this.out = out;
@@ -76,9 +84,12 @@ public class PrgState {
        // s+=stk.toString();
         s+=stk.print();
 
-        MyIDictionary<String, Value> symtbl=this.getSymtbl();
-        s+="\n\t    Symtbl:\n";
-        s+=symtbl.toString();
+//        MyIDictionary<String, Value> symtbl=this.getSymtbl();
+//        s+="\n\t    Symtbl:\n";
+//        s+=symtbl.toString();
+        MyIStack<MyIDictionary<String, Value>> symTblStk=this.getSymTblStack();
+        s+="\t    SymTbl Stack:\n";
+        s+=symTblStk.print();
 
         MyIList<Value> out=this.getOut();
         s+="\t    Out:\n";
@@ -91,6 +102,10 @@ public class PrgState {
         IHeap<Integer,Value> heap=this.getHeap();
         s+="\t    Heap:\n";
         s+=heap.toString();
+
+        IProcTable procTable=this.getProcTable();
+        s+="\t    ProcTable:\n";
+        s+=procTable.toString();
     return s;
     }
 

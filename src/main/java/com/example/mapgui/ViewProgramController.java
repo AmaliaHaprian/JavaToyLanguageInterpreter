@@ -7,9 +7,11 @@ import Model.Heap.IHeap;
 import Model.IStmt.IStmt;
 import Model.Out.MyIList;
 import Model.PrgState.PrgState;
+import Model.ProcTable.IProcTable;
 import Model.SymTable.MyIDictionary;
 import Model.Value.StringValue;
 import Model.Value.Value;
+import Pair.Pair;
 import javafx.beans.property.ReadOnlyIntegerWrapper;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.beans.property.ReadOnlyStringWrapper;
@@ -21,15 +23,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-class Pair<T1,T2>{
-    T1 first;
-    T2 second;
-
-    public Pair(T1 first,T2 second){
-        this.first=first;
-        this.second=second;
-    }
-}
 public class ViewProgramController{
     private Controller controller;
 
@@ -57,6 +50,9 @@ public class ViewProgramController{
     @FXML
     private Button runOneStepButton;
 
+    @FXML
+    private TableView<Pair<String, Pair<List<String>, IStmt>>> procTable;
+
     public void setController(Controller controller) {
         this.controller=controller;
         this.init();
@@ -74,19 +70,34 @@ public class ViewProgramController{
     @FXML
     private TableColumn<Pair<Integer,Value>, String> valueColumnHeapTbl;
 
+    //procTable
+    @FXML
+    private TableColumn<Pair<String,Pair<List<String>, IStmt>>, String> procNameColumn;
+    @FXML
+    private TableColumn<Pair<String,Pair<List<String>, IStmt>>, List<String>> paramColumn;
+    @FXML
+    private TableColumn<Pair<String,Pair<List<String>, IStmt>>, String> bodyColumn;
+
     @FXML
     private void initialize(){
         this.prgStatesList.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
 
         variableNameColumn.setCellValueFactory(cellData ->
-                new ReadOnlyStringWrapper(cellData.getValue().first));
+                new ReadOnlyStringWrapper(cellData.getValue().getFirst()));
         valueColumnSymTbl.setCellValueFactory(cellData ->
-                new ReadOnlyObjectWrapper<>(cellData.getValue().second.toString()));
+                new ReadOnlyObjectWrapper<>(cellData.getValue().getSecond().toString()));
 
         addressColumn.setCellValueFactory(cellData ->
-                new ReadOnlyIntegerWrapper(cellData.getValue().first).asObject());
+                new ReadOnlyIntegerWrapper(cellData.getValue().getFirst()).asObject());
         valueColumnHeapTbl.setCellValueFactory(cellData ->
-                new ReadOnlyObjectWrapper<>(cellData.getValue().second.toString()));
+                new ReadOnlyObjectWrapper<>(cellData.getValue().getSecond().toString()));
+
+        procNameColumn.setCellValueFactory(cellData ->
+                new ReadOnlyStringWrapper(cellData.getValue().getFirst()));
+        paramColumn.setCellValueFactory(cellData ->
+                new ReadOnlyObjectWrapper<>(cellData.getValue().getSecond().getFirst()));
+        bodyColumn.setCellValueFactory(cellData ->
+                new ReadOnlyStringWrapper(cellData.getValue().getSecond().getSecond().toString()));
     }
     public void init() {
         List<PrgState> prgStates=controller.getPrgStates();
@@ -95,6 +106,7 @@ public class ViewProgramController{
         this.populateHeapTable();
         this.populateOutList();
         this.populateFileTable();
+        this.populateProcTable();
     }
 
     public PrgState getSelectedPrgState(){
@@ -117,6 +129,14 @@ public class ViewProgramController{
         IHeap<Integer,Value> heap=crtPrg.getHeap();
         for(Map.Entry<Integer,Value> entry: heap.getContent().entrySet()){
             this.heapTable.getItems().add(new Pair<>(entry.getKey(), entry.getValue()));
+        }
+    }
+    public void populateProcTable(){
+        this.procTable.getItems().clear();
+        PrgState crtPrg=controller.getPrgStates().getFirst();
+        IProcTable procTbl=crtPrg.getProcTable();
+        for(Map.Entry<String,Pair<List<String>, IStmt>> entry: procTbl.getContent().entrySet()){
+            this.procTable.getItems().add(new Pair<String, Pair<List<String>, IStmt>>(entry.getKey(), entry.getValue()));
         }
     }
     public void populateOutList() {
@@ -176,6 +196,7 @@ public class ViewProgramController{
                 populateHeapTable();
                 populateOutList();
                 populateFileTable();
+                populateProcTable();
                 this.symTable.getItems().clear();
                 this.exeStack.getItems().clear();
                 prgStates = controller.removeCompletedPrg(controller.getPrgStates());

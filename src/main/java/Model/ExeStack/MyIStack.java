@@ -16,4 +16,5 @@ public interface MyIStack<T> {
     String print();
     List<T> stackToList();
     List<T> reverse();
+    MyIStack<T> deepCopy();
 }

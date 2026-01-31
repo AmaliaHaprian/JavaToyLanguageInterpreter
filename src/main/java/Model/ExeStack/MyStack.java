@@ -4,6 +4,7 @@ import Model.Exception.ADT.EmptyCollection;
 import Model.Exception.ADT.FullCollection;
 import Model.IStmt.CompStmt;
 import Model.IStmt.IStmt;
+import Model.SymTable.MyIDictionary;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -99,5 +100,23 @@ public class MyStack<T> implements MyIStack<T> {
         }
         Collections.reverse(list);
         return list;
+    }
+
+    @Override
+    public MyIStack<T> deepCopy() {
+        MyIStack<T> newStack=new MyStack<>();
+        List<T> listStack=new ArrayList<>(stack);
+        for(T elem:listStack){
+            try {
+                if(elem instanceof MyIDictionary<?,?>){
+                    MyIDictionary<?,?> d=(MyIDictionary<?,?>) elem;
+                    newStack.push((T)d.deepCopy());
+                }
+
+            } catch (FullCollection e) {
+                throw new RuntimeException(e);
+            }
+        }
+        return newStack;
     }
 }

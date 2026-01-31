@@ -30,11 +30,12 @@ public class ForkStmt implements IStmt {
     public PrgState execute(PrgState state) throws MyException {
         MyIStack<IStmt> newStack=new MyStack<>();
         //newStack.push(stmt);
-        MyIDictionary<String,Value> newSymTbl= state.getSymtbl().deepCopy();
+        //MyIDictionary<String,Value> newSymTbl= state.getSymtbl().deepCopy();
+        MyIStack<MyIDictionary<String,Value>> newSymTblStack=state.getSymTblStack().deepCopy();
         IHeap<Integer, Value> newHeap=state.getHeap();
         MyIDictionary<StringValue, BufferedReader> newFileTable=state.getFileTable();
         MyIList<Value> newOut=state.getOut();
-        PrgState newState=new PrgState(newStack,newSymTbl,newOut,stmt,newFileTable,newHeap);
+        PrgState newState=new PrgState(newStack,newSymTblStack,newOut,stmt,newFileTable,newHeap, state.getProcTable() );
         return newState;
     }
     public MyIDictionary<String, Type> typecheck(MyIDictionary<String, Type> typeEnv) throws MyException{
