@@ -74,18 +74,21 @@ public class StartingWindowController implements Initializable {
             }
 
             MyIStack<IStmt> stk=new MyStack<IStmt>();
-            //MyIDictionary<String, Value> symtbl=new MyDictionary<String, Value>();
+            MyIDictionary<String, Value> symtbl=new MyDictionary<String, Value>();
             MyIStack<MyIDictionary<String,Value>> symTblStack=new MyStack<>();
+            symTblStack.push(symtbl);
             MyIList<Value> out=new MyList<Value>();
             MyIDictionary<StringValue, BufferedReader> fileTbl=new MyDictionary<StringValue, BufferedReader>();
             IHeap<Integer,Value> heap=new Heap<Integer,Value>();
             IProcTable procTable=new ProcTable();
 
-            IStmt istmt1=new CompStmt(new AssignStmt("v", new ArithExp(new VarExp("a"), new VarExp("b"), '+')),
-                    new PrintStmt(new VarExp("v")));
+            IStmt istmt1=new CompStmt(new VarDeclStmt("v", new IntType()),
+                    new CompStmt(new AssignStmt("v", new ArithExp(new VarExp("a"), new VarExp("b"), '+')),
+                    new PrintStmt(new VarExp("v"))));
             procTable.add("sum", new Pair<>(Arrays.asList("a", "b"),istmt1 ));
-            IStmt istmt2=new CompStmt(new AssignStmt("v", new ArithExp(new VarExp("a"), new VarExp("b"), '*')),
-                    new PrintStmt(new VarExp("v")));
+            IStmt istmt2=new CompStmt( new VarDeclStmt("v", new IntType()),
+                    new CompStmt(new AssignStmt("v", new ArithExp(new VarExp("a"), new VarExp("b"), '*')),
+                    new PrintStmt(new VarExp("v"))));
             procTable.add("product", new Pair<>(Arrays.asList("a", "b"),istmt2 ));
 
             PrgState prg= null;

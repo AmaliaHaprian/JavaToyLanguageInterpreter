@@ -89,7 +89,7 @@ public class PrgState {
 //        s+=symtbl.toString();
         MyIStack<MyIDictionary<String, Value>> symTblStk=this.getSymTblStack();
         s+="\t    SymTbl Stack:\n";
-        s+=symTblStk.print();
+        s+=symTblStk.toString();
 
         MyIList<Value> out=this.getOut();
         s+="\t    Out:\n";
