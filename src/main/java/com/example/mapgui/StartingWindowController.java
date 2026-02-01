@@ -20,7 +20,6 @@ import Model.Value.StringValue;
 import Model.Value.Value;
 import Repository.IRepository;
 import Repository.Repository;
-import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -216,8 +215,14 @@ public class StartingWindowController implements Initializable {
                 new CompStmt(new WhileStmt(new RelationalExp(new VarExp("v"), new ValueExp(new IntValue(3)), "<"),
                                         new CompStmt(new ForkStmt(new CompStmt(new PrintStmt(new VarExp("v")), new AssignStmt("v", new ArithExp(new VarExp("v"), new ValueExp(new IntValue(1)), '+')))),
                                                         new AssignStmt("v", new ArithExp(new VarExp("v"), new ValueExp(new IntValue(1)), '+')))),
-                        new CompStmt(new SleepStmt(5),
+                        new CompStmt(new WaitStmt(5),
                                 new PrintStmt(new ArithExp(new VarExp("v"), new ValueExp(new IntValue(10)), '*')))));
+
+        IStmt ex12=new CompStmt(new VarDeclStmt("v", new IntType()),
+                new CompStmt(new AssignStmt("v", new ValueExp(new IntValue(20))),
+                        new CompStmt(new WaitStmt(10),
+                                new PrintStmt(new ArithExp(new VarExp("v"), new ValueExp(new IntValue(10)), '*')))));
+
         programs.add(ex1);
         programs.add(ex2);
         programs.add(ex3);
@@ -229,6 +234,7 @@ public class StartingWindowController implements Initializable {
         programs.add(ex9);
         programs.add(ex10);
         programs.add(ex11);
+        programs.add(ex12);
 
         return programs;
     }

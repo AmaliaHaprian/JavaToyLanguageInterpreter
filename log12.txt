@@ -1,0 +1,1160 @@
+------- Program #1 -------
+	    ExeStack:
+int v
+
+v=20
+
+sleep(10)
+
+print(v*10)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int v
+v=20
+
+sleep(10)
+
+print(v*10)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int v
+v=20
+
+sleep(10)
+
+print(v*10)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=20
+
+sleep(10)
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=20
+
+sleep(10)
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=20
+sleep(10)
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=20
+sleep(10)
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(10)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(10)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(10)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(10)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(10)
+
+sleep(9)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(10)
+
+sleep(9)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(10)
+sleep(9)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(10)
+sleep(9)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(9)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(9)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(9)
+
+sleep(8)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(9)
+
+sleep(8)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(9)
+sleep(8)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(9)
+sleep(8)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(8)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(8)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(8)
+
+sleep(7)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(8)
+
+sleep(7)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(8)
+sleep(7)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(8)
+sleep(7)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(7)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(7)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(7)
+
+sleep(6)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(7)
+
+sleep(6)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(7)
+sleep(6)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(7)
+sleep(6)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(6)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(6)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(6)
+
+sleep(5)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(6)
+
+sleep(5)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(6)
+sleep(5)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(6)
+sleep(5)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(5)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(5)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(5)
+
+sleep(4)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(5)
+
+sleep(4)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(5)
+sleep(4)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(5)
+sleep(4)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(4)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(4)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(4)
+
+sleep(3)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(4)
+
+sleep(3)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(4)
+sleep(3)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(4)
+sleep(3)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(3)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(3)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(3)
+
+sleep(2)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(3)
+
+sleep(2)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(3)
+sleep(2)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(3)
+sleep(2)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(2)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+3
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(2)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+3
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(2)
+
+sleep(1)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+3
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(2)
+
+sleep(1)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+3
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(2)
+sleep(1)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+3
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(2)
+sleep(1)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+3
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(1)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(1)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(1)
+
+sleep(0)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(1)
+
+sleep(0)
+
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(1)
+sleep(0)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(1)
+sleep(0)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(0)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+sleep(0)
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(v*10)
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+
+	    Symtbl:
+v->20
+	    Out:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+200
+	    File Table:
+	    Heap:
+
