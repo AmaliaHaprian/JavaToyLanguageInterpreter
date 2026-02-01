@@ -34,7 +34,7 @@ public class ForkStmt implements IStmt {
         IHeap<Integer, Value> newHeap=state.getHeap();
         MyIDictionary<StringValue, BufferedReader> newFileTable=state.getFileTable();
         MyIList<Value> newOut=state.getOut();
-        PrgState newState=new PrgState(newStack,newSymTbl,newOut,stmt,newFileTable,newHeap);
+        PrgState newState=new PrgState(newStack,newSymTbl,newOut,stmt,newFileTable,newHeap, state.getSemaphoreTable() );
         return newState;
     }
     public MyIDictionary<String, Type> typecheck(MyIDictionary<String, Type> typeEnv) throws MyException{

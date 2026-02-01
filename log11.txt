@@ -1,0 +1,3430 @@
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+
+int cnt
+
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+int cnt
+
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+int cnt
+
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+newSemaphore(cnt,rH(v1),1)
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+newSemaphore(cnt,rH(v1),1)
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->2
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->2
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->2
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->2
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->2
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #2 -------
+	    ExeStack:
+acquire(cnt)
+
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->2
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->2
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #2 -------
+	    ExeStack:
+acquire(cnt)
+
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->2
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->2
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #2 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->2
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->2
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #2 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->2
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+
+int cnt
+
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+int cnt
+
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+int cnt
+
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+newSemaphore(cnt,rH(v1),1)
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+newSemaphore(cnt,rH(v1),1)
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #2 -------
+	    ExeStack:
+acquire(cnt)
+
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #2 -------
+	    ExeStack:
+acquire(cnt)
+
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #2 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #2 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+
+int cnt
+
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+int cnt
+
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+int cnt
+
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+newSemaphore(cnt,rH(v1),1)
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+newSemaphore(cnt,rH(v1),1)
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+newSemaphore(cnt,rH(v1),1)
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->0
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(print(rH(v1)),release(cnt)))))
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #2 -------
+	    ExeStack:
+acquire(cnt)
+
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #2 -------
+	    ExeStack:
+acquire(cnt)
+
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #2 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+fork((acquire(cnt),(wH(v1,rH(v1)*10),(wH(v1,rH(v1)*2),(print(rH(v1)),release(cnt))))))
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #2 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #2 -------
+	    ExeStack:
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [2], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #2 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+acquire(cnt)
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [], 1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [1], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [1], 1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1)-1)
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [1], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [1], 1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1)-1)
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [1], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [1], 1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1)-1)
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [1], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [1], 1
+
+------- Program #1 -------
+	    ExeStack:
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [1], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [1], 1
+
+------- Program #1 -------
+	    ExeStack:
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [1], 1
+
+------- Program #3 -------
+	    ExeStack:
+acquire(cnt)
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [1], 1
+
+------- Program #1 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [3], 1
+
+------- Program #3 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [3], 1
+
+------- Program #3 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [3], 1
+
+------- Program #3 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [3], 1
+
+------- Program #3 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+	    File Table:
+	    Heap:
+1->20
+	    SemaphoreTable:
+1:2, [3], 1
+
+------- Program #3 -------
+	    ExeStack:
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+	    File Table:
+	    Heap:
+1->200
+	    SemaphoreTable:
+1:2, [3], 1
+
+------- Program #3 -------
+	    ExeStack:
+wH(v1,rH(v1)*2)
+
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+	    File Table:
+	    Heap:
+1->200
+	    SemaphoreTable:
+1:2, [3], 1
+
+------- Program #3 -------
+	    ExeStack:
+wH(v1,rH(v1)*2)
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+	    File Table:
+	    Heap:
+1->200
+	    SemaphoreTable:
+1:2, [3], 1
+
+------- Program #3 -------
+	    ExeStack:
+wH(v1,rH(v1)*2)
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+	    File Table:
+	    Heap:
+1->200
+	    SemaphoreTable:
+1:2, [3], 1
+
+------- Program #3 -------
+	    ExeStack:
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+	    File Table:
+	    Heap:
+1->400
+	    SemaphoreTable:
+1:2, [3], 1
+
+------- Program #3 -------
+	    ExeStack:
+print(rH(v1))
+
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+	    File Table:
+	    Heap:
+1->400
+	    SemaphoreTable:
+1:2, [3], 1
+
+------- Program #3 -------
+	    ExeStack:
+print(rH(v1))
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+	    File Table:
+	    Heap:
+1->400
+	    SemaphoreTable:
+1:2, [3], 1
+
+------- Program #3 -------
+	    ExeStack:
+print(rH(v1))
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+	    File Table:
+	    Heap:
+1->400
+	    SemaphoreTable:
+1:2, [3], 1
+
+------- Program #3 -------
+	    ExeStack:
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+400
+	    File Table:
+	    Heap:
+1->400
+	    SemaphoreTable:
+1:2, [3], 1
+
+------- Program #3 -------
+	    ExeStack:
+release(cnt)
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+400
+	    File Table:
+	    Heap:
+1->400
+	    SemaphoreTable:
+1:2, [3], 1
+
+------- Program #3 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+	    Out:
+20
+19
+400
+	    File Table:
+	    Heap:
+1->400
+	    SemaphoreTable:
+1:2, [], 1
+
