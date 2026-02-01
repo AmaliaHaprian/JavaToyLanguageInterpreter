@@ -46,7 +46,7 @@ public class RelationalExp implements Exp{
     }
     @Override
     public String toString() {
-        return "(" + exp1.toString() + " " + op + " " + exp2.toString() + ")";
+        return exp1.toString() + " " + op + " " + exp2.toString();
     }
     public Exp deepCopy() {
         return new RelationalExp(exp1.deepCopy(), exp2.deepCopy(), op);
