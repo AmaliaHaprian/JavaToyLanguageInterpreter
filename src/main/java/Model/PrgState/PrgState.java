@@ -1,10 +1,7 @@
 package Model.PrgState;
 
-import Model.Exception.ADT.EmptyCollection;
-import Model.Exception.ADT.FullCollection;
 import Model.Exception.MyException;
 import Model.ExeStack.MyIStack;
-import Model.Heap.Heap;
 import Model.Heap.IHeap;
 import Model.IStmt.IStmt;
 import Model.Out.MyIList;
@@ -13,7 +10,6 @@ import Model.Value.StringValue;
 import Model.Value.Value;
 
 import java.io.BufferedReader;
-import java.util.ArrayList;
 
 public class PrgState {
     static int nextId;

@@ -218,6 +218,14 @@ public class StartingWindowController implements Initializable {
                                                         new AssignStmt("v", new ArithExp(new VarExp("v"), new ValueExp(new IntValue(1)), '+')))),
                         new CompStmt(new SleepStmt(5),
                                 new PrintStmt(new ArithExp(new VarExp("v"), new ValueExp(new IntValue(10)), '*')))));
+
+        IStmt ex12=new CompStmt(new VarDeclStmt("v", new IntType()),
+                new CompStmt(new AssignStmt("v", new ValueExp(new IntValue(10))),
+                        new CompStmt(new ForkStmt(new CompStmt(new AssignStmt("v", new ArithExp(new VarExp("v"), new ValueExp(new IntValue(1)), '-')),
+                                                            new CompStmt(new AssignStmt("v", new ArithExp(new VarExp("v"), new ValueExp(new IntValue(1)), '-')),
+                                                                        new PrintStmt(new VarExp("v"))))),
+                                new CompStmt(new SleepStmt(10),
+                                            new PrintStmt(new ArithExp(new VarExp("v"), new ValueExp(new IntValue(10)), '*'))))));
         programs.add(ex1);
         programs.add(ex2);
         programs.add(ex3);
@@ -229,6 +237,7 @@ public class StartingWindowController implements Initializable {
         programs.add(ex9);
         programs.add(ex10);
         programs.add(ex11);
+        programs.add(ex12);
 
         return programs;
     }
