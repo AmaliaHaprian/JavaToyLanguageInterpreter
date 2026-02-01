@@ -56,40 +56,20 @@ public class MyStack<T> implements MyIStack<T> {
         return s;
     }
 
-    public String print(){
-        String s="";
-        List<T> reversed=new ArrayList<T>(stack);
-        Collections.reverse(reversed);
-        for(T elem:reversed){
-            s+= InOrder((IStmt) elem);
+    public void InOrderList(T elem, List<T> result){
+        if(elem==null) return;
+        if (elem instanceof CompStmt comp){
+            InOrderList( (T)comp.getFirst(), result);
+            InOrderList((T)comp.getSnd(), result);
         }
-        return s.stripTrailing();
-    }
-    public String InOrder(IStmt stmt){
-        if(stmt==null) return "";
-        if (stmt instanceof CompStmt){
-            String left= InOrder(((CompStmt) stmt).getFirst());
-            String right= InOrder(((CompStmt) stmt).getSnd());
-            return left+"\n"+right+"\n";
-        }
-        else return stmt.toString()+"\n";
-    }
-
-    public void InOrderList(IStmt stmt, List<IStmt> result){
-        if(stmt==null) return;
-        if (stmt instanceof CompStmt){
-            InOrderList(((CompStmt) stmt).getFirst(), result);
-            InOrderList(((CompStmt) stmt).getSnd(), result);
-        }
-        else result.add(stmt);
+        else result.add(elem);
     }
     public List<T> stackToList(){
         List<T> list=new ArrayList<>();
         List<T> reversed=new ArrayList<T>(stack);
         Collections.reverse(reversed);
         for(T elem:reversed){
-            InOrderList((IStmt) elem, (List<IStmt>) list);
-            System.out.println(list);
+            InOrderList(elem,list);
         }
         return list;
     }
@@ -100,6 +80,16 @@ public class MyStack<T> implements MyIStack<T> {
         }
         Collections.reverse(list);
         return list;
+    }
+
+    public String printInOrder(){
+        String s="";
+        List<T> list=stackToList();
+        if(list.isEmpty()) return "";
+        for(T elem:list){
+            s+=elem.toString()+"\n";
+        }
+        return s;
     }
 
     @Override
