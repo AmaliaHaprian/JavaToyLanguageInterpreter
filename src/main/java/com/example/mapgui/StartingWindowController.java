@@ -82,14 +82,14 @@ public class StartingWindowController implements Initializable {
             IHeap<Integer,Value> heap=new Heap<Integer,Value>();
             IProcTable procTable=new ProcTable();
 
-            IStmt istmt1=new CompStmt(new VarDeclStmt("v", new IntType()),
-                    new CompStmt(new AssignStmt("v", new ArithExp(new VarExp("a"), new VarExp("b"), '+')),
-                    new PrintStmt(new VarExp("v"))));
-            procTable.add("sum", new Pair<>(Arrays.asList("a", "b"),istmt1 ));
-            IStmt istmt2=new CompStmt( new VarDeclStmt("v", new IntType()),
-                    new CompStmt(new AssignStmt("v", new ArithExp(new VarExp("a"), new VarExp("b"), '*')),
-                    new PrintStmt(new VarExp("v"))));
-            procTable.add("product", new Pair<>(Arrays.asList("a", "b"),istmt2 ));
+//            IStmt istmt1=new CompStmt(new VarDeclStmt("v", new IntType()),
+//                    new CompStmt(new AssignStmt("v", new ArithExp(new VarExp("a"), new VarExp("b"), '+')),
+//                    new PrintStmt(new VarExp("v"))));
+//            procTable.add("sum", new Pair<>(Arrays.asList("a", "b"),istmt1 ));
+//            IStmt istmt2=new CompStmt( new VarDeclStmt("v", new IntType()),
+//                    new CompStmt(new AssignStmt("v", new ArithExp(new VarExp("a"), new VarExp("b"), '*')),
+//                    new PrintStmt(new VarExp("v"))));
+//            procTable.add("product", new Pair<>(Arrays.asList("a", "b"),istmt2 ));
 
             PrgState prg= null;
             try {
@@ -227,14 +227,22 @@ public class StartingWindowController implements Initializable {
                                                                         new CompStmt(new PrintStmt(new VarExp("v")),
                                                                                 new PrintStmt(new ReadHeapExp(new VarExp("a"))))))))))));
 
-        IStmt ex11=new CompStmt(new VarDeclStmt("v", new IntType()),
+        IStmt istmt1=new CompStmt(new VarDeclStmt("v", new IntType()),
+                new CompStmt(new AssignStmt("v", new ArithExp(new VarExp("a"), new VarExp("b"), '+')),
+                        new PrintStmt(new VarExp("v"))));
+        IStmt istmt2=new CompStmt( new VarDeclStmt("v", new IntType()),
+                new CompStmt(new AssignStmt("v", new ArithExp(new VarExp("a"), new VarExp("b"), '*')),
+                        new PrintStmt(new VarExp("v"))));
+        IStmt ex11=new CompStmt(new ProcDeclStmt("sum", List.of("a", "b"), istmt1),
+                new CompStmt(new ProcDeclStmt("product", List.of("a", "b"), istmt2),
+                new CompStmt(new VarDeclStmt("v", new IntType()),
                 new CompStmt(new VarDeclStmt("w", new IntType()),
                         new CompStmt(new AssignStmt("v", new ValueExp(new IntValue(2))),
                                 new CompStmt(new AssignStmt("w", new ValueExp(new IntValue(5))),
                                         new CompStmt(new CallStmt("sum", Arrays.asList(new ArithExp(new VarExp("v"),new ValueExp(new IntValue(10)), '*'), new VarExp("w"))),
                                                 new CompStmt(new PrintStmt(new VarExp("v")),
                                                         new CompStmt(new ForkStmt(new CallStmt("product", Arrays.asList(new VarExp("v"), new VarExp("w")))),
-                                                                new ForkStmt(new CallStmt("sum", Arrays.asList(new VarExp("v"), new VarExp("w")))))))))));
+                                                                new ForkStmt(new CallStmt("sum", Arrays.asList(new VarExp("v"), new VarExp("w")))))))))))));
         programs.add(ex1);
         programs.add(ex2);
         programs.add(ex3);

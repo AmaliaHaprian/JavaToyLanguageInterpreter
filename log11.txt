@@ -1424,3 +1424,1581 @@ w->5
 sum->[a, b]->(int v,(v=a+b,print(v)))
 product->[a, b]->(int v,(v=a*b,print(v)))
 
+------- Program #1 -------
+	    ExeStack:
+procedure sum([a, b]) (int v,(v=a+b,print(v)))
+procedure product([a, b]) (int v,(v=a*b,print(v)))
+int v
+int w
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+
+------- Program #1 -------
+	    ExeStack:
+procedure sum([a, b]) (int v,(v=a+b,print(v)))
+procedure product([a, b]) (int v,(v=a*b,print(v)))
+int v
+int w
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+
+------- Program #1 -------
+	    ExeStack:
+procedure sum([a, b]) (int v,(v=a+b,print(v)))
+procedure product([a, b]) (int v,(v=a*b,print(v)))
+int v
+int w
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+
+------- Program #1 -------
+	    ExeStack:
+procedure product([a, b]) (int v,(v=a*b,print(v)))
+int v
+int w
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+procedure product([a, b]) (int v,(v=a*b,print(v)))
+int v
+int w
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+procedure product([a, b]) (int v,(v=a*b,print(v)))
+int v
+int w
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+procedure product([a, b]) (int v,(v=a*b,print(v)))
+int v
+int w
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+int v
+int w
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+int v
+int w
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+int v
+int w
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+int v
+int w
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+int w
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->0
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+int w
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->0
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+int w
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->0
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+int w
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->0
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->0
+w->0
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->0
+w->0
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->0
+w->0
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+v=2
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->0
+w->0
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->0
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->0
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->0
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+w=5
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->0
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+call sum([v*10, w])
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+int v
+v=a+b
+print(v)
+return
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+a->20
+b->5
+
+v->2
+w->5
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+int v
+v=a+b
+print(v)
+return
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+a->20
+b->5
+
+v->2
+w->5
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+int v
+v=a+b
+print(v)
+return
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+a->20
+b->5
+
+v->2
+w->5
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+int v
+v=a+b
+print(v)
+return
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+a->20
+b->5
+
+v->2
+w->5
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+v=a+b
+print(v)
+return
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+a->20
+b->5
+v->0
+
+v->2
+w->5
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+v=a+b
+print(v)
+return
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+a->20
+b->5
+v->0
+
+v->2
+w->5
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+v=a+b
+print(v)
+return
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+a->20
+b->5
+v->0
+
+v->2
+w->5
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+v=a+b
+print(v)
+return
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+a->20
+b->5
+v->0
+
+v->2
+w->5
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+print(v)
+return
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+a->20
+b->5
+v->25
+
+v->2
+w->5
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+print(v)
+return
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+a->20
+b->5
+v->25
+
+v->2
+w->5
+
+	    Out:
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+return
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+a->20
+b->5
+v->25
+
+v->2
+w->5
+
+	    Out:
+25
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+return
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+a->20
+b->5
+v->25
+
+v->2
+w->5
+
+	    Out:
+25
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+25
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+25
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+25
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+print(v)
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+25
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+fork(call product([v, w]))
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #2 -------
+	    ExeStack:
+call product([v, w])
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+fork(call sum([v, w]))
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #2 -------
+	    ExeStack:
+call product([v, w])
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #1 -------
+	    ExeStack:
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #2 -------
+	    ExeStack:
+int v
+v=a*b
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #3 -------
+	    ExeStack:
+call sum([v, w])
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #2 -------
+	    ExeStack:
+int v
+v=a*b
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #3 -------
+	    ExeStack:
+call sum([v, w])
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #2 -------
+	    ExeStack:
+int v
+v=a*b
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #3 -------
+	    ExeStack:
+int v
+v=a+b
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #2 -------
+	    ExeStack:
+int v
+v=a*b
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #3 -------
+	    ExeStack:
+int v
+v=a+b
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #2 -------
+	    ExeStack:
+v=a*b
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+v->0
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #3 -------
+	    ExeStack:
+int v
+v=a+b
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #2 -------
+	    ExeStack:
+v=a*b
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+v->0
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #3 -------
+	    ExeStack:
+int v
+v=a+b
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #2 -------
+	    ExeStack:
+v=a*b
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+v->0
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #3 -------
+	    ExeStack:
+v=a+b
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+v->0
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #2 -------
+	    ExeStack:
+v=a*b
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+v->0
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #3 -------
+	    ExeStack:
+v=a+b
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+v->0
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+v->10
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #3 -------
+	    ExeStack:
+v=a+b
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+v->0
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+v->10
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #3 -------
+	    ExeStack:
+v=a+b
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+v->0
+
+v->2
+w->5
+
+	    Out:
+25
+2
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #2 -------
+	    ExeStack:
+return
+	    SymTbl Stack:
+a->2
+b->5
+v->10
+
+v->2
+w->5
+
+	    Out:
+25
+2
+10
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #3 -------
+	    ExeStack:
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+v->7
+
+v->2
+w->5
+
+	    Out:
+25
+2
+10
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #2 -------
+	    ExeStack:
+return
+	    SymTbl Stack:
+a->2
+b->5
+v->10
+
+v->2
+w->5
+
+	    Out:
+25
+2
+10
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #3 -------
+	    ExeStack:
+print(v)
+return
+	    SymTbl Stack:
+a->2
+b->5
+v->7
+
+v->2
+w->5
+
+	    Out:
+25
+2
+10
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #2 -------
+	    ExeStack:
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+25
+2
+10
+7
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #3 -------
+	    ExeStack:
+return
+	    SymTbl Stack:
+a->2
+b->5
+v->7
+
+v->2
+w->5
+
+	    Out:
+25
+2
+10
+7
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #3 -------
+	    ExeStack:
+return
+	    SymTbl Stack:
+a->2
+b->5
+v->7
+
+v->2
+w->5
+
+	    Out:
+25
+2
+10
+7
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
+------- Program #3 -------
+	    ExeStack:
+	    SymTbl Stack:
+v->2
+w->5
+
+	    Out:
+25
+2
+10
+7
+	    File Table:
+	    Heap:
+	    ProcTable:
+sum->[a, b]->(int v,(v=a+b,print(v)))
+product->[a, b]->(int v,(v=a*b,print(v)))
+
