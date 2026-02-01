@@ -1,6 +1,7 @@
 package Model.SemaphoreTable;
 
 import Model.Exception.ADT.FullCollection;
+import Model.Exception.MyException;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,7 +16,7 @@ public class SemaphoreTable<K,T> implements ISemaphoreTable<K,T>{
     }
 
     @Override
-    public synchronized void add(K key, T value) throws FullCollection {
+    public synchronized void add(K key, T value) throws MyException {
         this.dictionary.put(key,value);
     }
 
@@ -51,6 +52,8 @@ public class SemaphoreTable<K,T> implements ISemaphoreTable<K,T>{
             try {
                 copy.add(entry.getKey(), entry.getValue());
             } catch (FullCollection e) {
+                throw new RuntimeException(e);
+            } catch (MyException e) {
                 throw new RuntimeException(e);
             }
         }

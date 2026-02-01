@@ -12,8 +12,12 @@ import Model.Value.IntValue;
 import Model.Value.Value;
 import Tuple.Tuple;
 
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 public class ReleaseStmt implements IStmt{
     private String var;
+    private static final Lock lock = new ReentrantLock();
 
     public ReleaseStmt(String var){
         this.var=var;
@@ -21,6 +25,7 @@ public class ReleaseStmt implements IStmt{
 
     @Override
     public PrgState execute(PrgState state) throws MyException {
+        lock.lock();
         MyIDictionary<String, Value> tbl=state.getSymtbl();
         IHeap<Integer,Value> heap=state.getHeap();
         MyIStack<IStmt> stk=state.getStk();
@@ -35,6 +40,7 @@ public class ReleaseStmt implements IStmt{
         if(t.getSecond().contains(state.getPersonalId())){
             t.getSecond().remove((Integer) state.getPersonalId());
         }
+        lock.unlock();
         return null;
     }
 

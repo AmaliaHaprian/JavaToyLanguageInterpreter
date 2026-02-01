@@ -2,6 +2,7 @@ package Model.ExeStack;
 
 import Model.Exception.ADT.EmptyCollection;
 import Model.Exception.ADT.FullCollection;
+import Model.Exception.MyException;
 import Model.IStmt.CompStmt;
 import Model.IStmt.IStmt;
 
@@ -20,23 +21,23 @@ public class MyStack<T> implements MyIStack<T> {
         size=0;
         capacity=10;
     }
-    public T pop() throws EmptyCollection {
+    public T pop() throws MyException {
         if(size==0){
-            throw new EmptyCollection("Empty stack. Cannot perform pop");
+            throw new MyException("Empty stack. Cannot perform pop");
         }
         T elem=stack.pop();
         size--;
         return elem;
     }
-    public void push(T value) throws FullCollection {
+    public void push(T value) throws MyException {
         if(size==capacity){
-            throw new FullCollection("Full stack. Cannot perform push");
+            throw new MyException("Full stack. Cannot perform push");
         }
         stack.push(value);
         size++;
     }
-    public T peek() throws EmptyCollection {
-        if(size==0) throw new EmptyCollection("Empty stack. Cannot perform peek");
+    public T peek() throws MyException {
+        if(size==0) throw new MyException("Empty stack. Cannot perform peek");
         return stack.peek();
     }
     public boolean isEmpty(){
@@ -88,7 +89,6 @@ public class MyStack<T> implements MyIStack<T> {
         Collections.reverse(reversed);
         for(T elem:reversed){
             InOrderList((IStmt) elem, (List<IStmt>) list);
-            System.out.println(list);
         }
         return list;
     }
