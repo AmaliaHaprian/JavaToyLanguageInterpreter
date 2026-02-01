@@ -97,7 +97,7 @@ public class Controller {
                 .collect(Collectors.toList());
     }
 
-    public void oneStepForAllPrg(List<PrgState> prgList) {
+    public void oneStepForAllPrg(List<PrgState> prgList) throws MyException {
         prgList.forEach(prg -> {
             try {
                 repo.logPrgStateExec(prg);
@@ -125,7 +125,7 @@ public class Controller {
                     .filter(p -> p != null)
                     .collect(Collectors.toList());
         } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+            throw new MyException(e.getMessage());
         }
 
         prgList.addAll(newPrgList);
