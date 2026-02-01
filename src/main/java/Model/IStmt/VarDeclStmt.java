@@ -4,13 +4,7 @@ import Model.Exception.MyException;
 import Model.ExeStack.MyIStack;
 import Model.PrgState.PrgState;
 import Model.SymTable.MyIDictionary;
-import Model.Type.BoolType;
-import Model.Type.IntType;
-import Model.Type.StringType;
 import Model.Type.Type;
-import Model.Value.BoolValue;
-import Model.Value.IntValue;
-import Model.Value.StringValue;
 import Model.Value.Value;
 
 public class VarDeclStmt implements IStmt {

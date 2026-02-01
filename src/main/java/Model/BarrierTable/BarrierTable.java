@@ -1,7 +1,7 @@
 package Model.BarrierTable;
 
-import Model.Exception.ADT.EmptyCollection;
 import Model.Exception.ADT.FullCollection;
+import Model.Exception.MyException;
 import Pair.Pair;
 import java.util.HashMap;
 import java.util.Map;
@@ -23,12 +23,12 @@ public class BarrierTable implements IBarrierTable<Integer, Pair<Integer, Vector
     }
 
     @Override
-    public synchronized void add(Integer key, Pair<Integer, Vector<Integer>> value) throws FullCollection {
+    public synchronized void add(Integer key, Pair<Integer, Vector<Integer>> value) throws MyException {
         this.barrierTable.put(key,value);
     }
 
     @Override
-    public synchronized Pair<Integer, Vector<Integer>> remove(Integer key) throws EmptyCollection {
+    public synchronized Pair<Integer, Vector<Integer>> remove(Integer key) throws MyException {
         return null;
     }
 
@@ -69,6 +69,8 @@ public class BarrierTable implements IBarrierTable<Integer, Pair<Integer, Vector
             try {
                 newDict.add(entry.getKey(), entry.getValue());
             } catch (FullCollection e) {
+                throw new RuntimeException(e);
+            } catch (MyException e) {
                 throw new RuntimeException(e);
             }
         }

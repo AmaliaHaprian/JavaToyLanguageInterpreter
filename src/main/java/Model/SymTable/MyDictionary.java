@@ -2,10 +2,9 @@ package Model.SymTable;
 
 import Model.Exception.ADT.EmptyCollection;
 import Model.Exception.ADT.FullCollection;
+import Model.Exception.MyException;
 import Model.Value.Value;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -20,16 +19,16 @@ public class MyDictionary<K,T> implements MyIDictionary<K,T> {
         this.capacity = 50;
         this.size = 0;
     }
-    public void add(K key, T value) throws FullCollection {
+    public void add(K key, T value) throws MyException {
         if(size==capacity){
-            throw new FullCollection("Full dictionary. Cannot perform add");
+            throw new MyException("Full dictionary. Cannot perform add");
         }
         this.dictionary.put(key, value);
         size++;
     }
-    public T remove(K key) throws EmptyCollection {
+    public T remove(K key) throws MyException {
         if(size==0){
-            throw new EmptyCollection("Empty dictionary. Cannot perform remove");
+            throw new MyException("Empty dictionary. Cannot perform remove");
         }
         size--;
         return this.dictionary.remove(key);
@@ -72,6 +71,8 @@ public class MyDictionary<K,T> implements MyIDictionary<K,T> {
                 else
                     newDict.add(entry.getKey(), entry.getValue());
             } catch (FullCollection e) {
+                throw new RuntimeException(e);
+            } catch (MyException e) {
                 throw new RuntimeException(e);
             }
         }

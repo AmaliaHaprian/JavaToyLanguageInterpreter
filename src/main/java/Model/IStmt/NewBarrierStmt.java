@@ -14,10 +14,13 @@ import Model.Value.Value;
 import Pair.Pair;
 
 import java.util.Vector;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class NewBarrierStmt implements IStmt {
     private String var;
     private Exp exp;
+    private static final Lock lock=new ReentrantLock();
 
     public NewBarrierStmt(String var, Exp exp) {
         this.var = var;
@@ -26,6 +29,7 @@ public class NewBarrierStmt implements IStmt {
 
     @Override
     public PrgState execute(PrgState state) throws MyException {
+        lock.lock();
         MyIDictionary<String,Value> tbl=state.getSymtbl();
         IHeap<Integer,Value> heap=state.getHeap();
         MyIStack<IStmt> stk=state.getStk();
@@ -40,6 +44,7 @@ public class NewBarrierStmt implements IStmt {
             tbl.update(var,new IntValue(location));
         else
             tbl.add(var,new IntValue(location));
+        lock.unlock();
         return null;
     }
 

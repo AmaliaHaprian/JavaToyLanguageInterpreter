@@ -13,15 +13,19 @@ import Model.Value.Value;
 import Pair.Pair;
 
 import java.util.Vector;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class AwaitStmt implements IStmt {
     private String var;
+    private static final Lock lock=new ReentrantLock();
     public AwaitStmt(String var) {
         this.var=var;
     }
 
     @Override
     public PrgState execute(PrgState state) throws MyException {
+        lock.lock();
         MyIDictionary<String, Value> tbl=state.getSymtbl();
         IHeap<Integer,Value> heap=state.getHeap();
         MyIStack<IStmt> stk=state.getStk();
@@ -43,6 +47,7 @@ public class AwaitStmt implements IStmt {
                 state.getStk().push(this);
             }
         }
+        lock.unlock();
         return null;
     }
 

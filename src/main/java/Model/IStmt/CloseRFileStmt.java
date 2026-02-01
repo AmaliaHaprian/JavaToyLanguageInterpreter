@@ -8,7 +8,6 @@ import Model.Exp.Exp;
 import Model.Heap.IHeap;
 import Model.PrgState.PrgState;
 import Model.SymTable.MyIDictionary;
-import Model.Type.RefType;
 import Model.Type.StringType;
 import Model.Type.Type;
 import Model.Value.StringValue;
