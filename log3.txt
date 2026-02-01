@@ -255,3 +255,218 @@ v->2
 	    File Table:
 	    Heap:
 
+------- Program #2 -------
+	    ExeStack:
+boolean a
+int v
+a=true
+IF (a) THEN (v=2) ELSE (v=3)
+print(v)
+
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+boolean a
+
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+boolean a
+
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+int v
+a=true
+IF (a) THEN (v=2) ELSE (v=3)
+print(v)
+
+	    Symtbl:
+a->false
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+int v
+a=true
+IF (a) THEN (v=2) ELSE (v=3)
+print(v)
+
+	    Symtbl:
+a->false
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+int v
+
+	    Symtbl:
+a->false
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+int v
+
+	    Symtbl:
+a->false
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+a=true
+IF (a) THEN (v=2) ELSE (v=3)
+print(v)
+
+	    Symtbl:
+a->false
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+a=true
+IF (a) THEN (v=2) ELSE (v=3)
+print(v)
+
+	    Symtbl:
+a->false
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+a=true
+
+	    Symtbl:
+a->false
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+a=true
+
+	    Symtbl:
+a->false
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+IF (a) THEN (v=2) ELSE (v=3)
+print(v)
+
+	    Symtbl:
+a->true
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+IF (a) THEN (v=2) ELSE (v=3)
+print(v)
+
+	    Symtbl:
+a->true
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+IF (a) THEN (v=2) ELSE (v=3)
+
+	    Symtbl:
+a->true
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+IF (a) THEN (v=2) ELSE (v=3)
+
+	    Symtbl:
+a->true
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=2
+
+	    Symtbl:
+a->true
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=2
+
+	    Symtbl:
+a->true
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+
+	    Symtbl:
+a->true
+v->2
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+
+	    Symtbl:
+a->true
+v->2
+	    Out:
+	    File Table:
+	    Heap:
+

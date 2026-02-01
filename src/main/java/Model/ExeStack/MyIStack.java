@@ -13,7 +13,7 @@ public interface MyIStack<T> {
     String toString();
     int size();
     T peek() throws EmptyCollection;
-    String print();
     List<T> stackToList();
     List<T> reverse();
+    String printInOrder();
 }

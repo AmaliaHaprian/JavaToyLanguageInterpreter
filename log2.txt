@@ -1,14 +1,11 @@
 ------- Program #1 -------
 	    ExeStack:
 int a
-
 int b
-
 a=2+3*5
-
 b=a+1
-
 print(b)
+
 	    Symtbl:
 	    Out:
 	    File Table:
@@ -18,128 +15,86 @@ print(b)
 	    ExeStack:
 int a
 int b
-
 a=2+3*5
-
 b=a+1
-
 print(b)
+
 	    Symtbl:
 	    Out:
 	    File Table:
 	    Heap:
 
-------- Program #2 -------
-	    ExeStack:
-int a
-
-int b
-
-a=2+3*5
-
-b=a+1
-
-print(b)
-	    Symtbl:
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #2 -------
+------- Program #1 -------
 	    ExeStack:
 int a
 int b
-
 a=2+3*5
-
 b=a+1
-
 print(b)
+
 	    Symtbl:
 	    Out:
 	    File Table:
 	    Heap:
 
-------- Program #2 -------
-	    ExeStack:
-int a
-int b
-
-a=2+3*5
-
-b=a+1
-
-print(b)
-	    Symtbl:
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #2 -------
+------- Program #1 -------
 	    ExeStack:
 int b
-
 a=2+3*5
-
 b=a+1
-
 print(b)
+
 	    Symtbl:
 a->0
 	    Out:
 	    File Table:
 	    Heap:
 
-------- Program #2 -------
+------- Program #1 -------
 	    ExeStack:
 int b
-
 a=2+3*5
-
 b=a+1
-
 print(b)
+
 	    Symtbl:
 a->0
 	    Out:
 	    File Table:
 	    Heap:
 
-------- Program #2 -------
+------- Program #1 -------
 	    ExeStack:
 int b
 a=2+3*5
-
 b=a+1
-
 print(b)
+
 	    Symtbl:
 a->0
 	    Out:
 	    File Table:
 	    Heap:
 
-------- Program #2 -------
+------- Program #1 -------
 	    ExeStack:
 int b
 a=2+3*5
-
 b=a+1
-
 print(b)
+
 	    Symtbl:
 a->0
 	    Out:
 	    File Table:
 	    Heap:
 
-------- Program #2 -------
+------- Program #1 -------
 	    ExeStack:
 a=2+3*5
-
 b=a+1
-
 print(b)
+
 	    Symtbl:
 a->0
 b->0
@@ -147,13 +102,12 @@ b->0
 	    File Table:
 	    Heap:
 
-------- Program #2 -------
+------- Program #1 -------
 	    ExeStack:
 a=2+3*5
-
 b=a+1
-
 print(b)
+
 	    Symtbl:
 a->0
 b->0
@@ -161,12 +115,12 @@ b->0
 	    File Table:
 	    Heap:
 
-------- Program #2 -------
+------- Program #1 -------
 	    ExeStack:
 a=2+3*5
 b=a+1
-
 print(b)
+
 	    Symtbl:
 a->0
 b->0
@@ -174,12 +128,12 @@ b->0
 	    File Table:
 	    Heap:
 
-------- Program #2 -------
+------- Program #1 -------
 	    ExeStack:
 a=2+3*5
 b=a+1
-
 print(b)
+
 	    Symtbl:
 a->0
 b->0
@@ -187,11 +141,11 @@ b->0
 	    File Table:
 	    Heap:
 
-------- Program #2 -------
+------- Program #1 -------
 	    ExeStack:
 b=a+1
-
 print(b)
+
 	    Symtbl:
 a->17
 b->0
@@ -199,11 +153,11 @@ b->0
 	    File Table:
 	    Heap:
 
-------- Program #2 -------
+------- Program #1 -------
 	    ExeStack:
 b=a+1
-
 print(b)
+
 	    Symtbl:
 a->17
 b->0
@@ -211,10 +165,11 @@ b->0
 	    File Table:
 	    Heap:
 
-------- Program #2 -------
+------- Program #1 -------
 	    ExeStack:
 b=a+1
 print(b)
+
 	    Symtbl:
 a->17
 b->0
@@ -222,10 +177,11 @@ b->0
 	    File Table:
 	    Heap:
 
-------- Program #2 -------
+------- Program #1 -------
 	    ExeStack:
 b=a+1
 print(b)
+
 	    Symtbl:
 a->17
 b->0
@@ -233,9 +189,10 @@ b->0
 	    File Table:
 	    Heap:
 
-------- Program #2 -------
+------- Program #1 -------
 	    ExeStack:
 print(b)
+
 	    Symtbl:
 a->17
 b->18
@@ -243,9 +200,10 @@ b->18
 	    File Table:
 	    Heap:
 
-------- Program #2 -------
+------- Program #1 -------
 	    ExeStack:
 print(b)
+
 	    Symtbl:
 a->17
 b->18
@@ -253,7 +211,7 @@ b->18
 	    File Table:
 	    Heap:
 
-------- Program #2 -------
+------- Program #1 -------
 	    ExeStack:
 
 	    Symtbl:

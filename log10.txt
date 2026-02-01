@@ -1,0 +1,359 @@
+------- Program #1 -------
+	    ExeStack:
+int v
+Ref(int) a
+v=10
+new(a,22)
+fork(wH(a,30))
+v=32
+print(v)
+print(rH(a))
+print(v)
+print(rH(a))
+
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int v
+
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int v
+
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) a
+v=10
+new(a,22)
+fork(wH(a,30))
+v=32
+print(v)
+print(rH(a))
+print(v)
+print(rH(a))
+
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) a
+v=10
+new(a,22)
+fork(wH(a,30))
+v=32
+print(v)
+print(rH(a))
+print(v)
+print(rH(a))
+
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) a
+
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) a
+
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=10
+new(a,22)
+fork(wH(a,30))
+v=32
+print(v)
+print(rH(a))
+print(v)
+print(rH(a))
+
+	    Symtbl:
+a->0:int
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=10
+new(a,22)
+fork(wH(a,30))
+v=32
+print(v)
+print(rH(a))
+print(v)
+print(rH(a))
+
+	    Symtbl:
+a->0:int
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=10
+
+	    Symtbl:
+a->0:int
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=10
+
+	    Symtbl:
+a->0:int
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+new(a,22)
+fork(wH(a,30))
+v=32
+print(v)
+print(rH(a))
+print(v)
+print(rH(a))
+
+	    Symtbl:
+a->0:int
+v->10
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+new(a,22)
+fork(wH(a,30))
+v=32
+print(v)
+print(rH(a))
+print(v)
+print(rH(a))
+
+	    Symtbl:
+a->0:int
+v->10
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+new(a,22)
+
+	    Symtbl:
+a->0:int
+v->10
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+new(a,22)
+
+	    Symtbl:
+a->0:int
+v->10
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(a,30))
+v=32
+print(v)
+print(rH(a))
+print(v)
+print(rH(a))
+
+	    Symtbl:
+a->1:int
+v->10
+	    Out:
+	    File Table:
+	    Heap:
+1->22
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(a,30))
+v=32
+print(v)
+print(rH(a))
+print(v)
+print(rH(a))
+
+	    Symtbl:
+a->1:int
+v->10
+	    Out:
+	    File Table:
+	    Heap:
+1->22
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(a,30))
+
+	    Symtbl:
+a->1:int
+v->10
+	    Out:
+	    File Table:
+	    Heap:
+1->22
+
+------- Program #1 -------
+	    ExeStack:
+fork(wH(a,30))
+
+	    Symtbl:
+a->1:int
+v->10
+	    Out:
+	    File Table:
+	    Heap:
+1->22
+
+------- Program #1 -------
+	    ExeStack:
+v=32
+print(v)
+print(rH(a))
+print(v)
+print(rH(a))
+
+	    Symtbl:
+a->1:int
+v->10
+	    Out:
+	    File Table:
+	    Heap:
+1->22
+
+------- Program #2 -------
+	    ExeStack:
+wH(a,30)
+
+	    Symtbl:
+a->1:int
+v->10
+	    Out:
+	    File Table:
+	    Heap:
+1->22
+
+------- Program #1 -------
+	    ExeStack:
+v=32
+print(v)
+print(rH(a))
+print(v)
+print(rH(a))
+
+	    Symtbl:
+a->1:int
+v->10
+	    Out:
+	    File Table:
+	    Heap:
+1->22
+
+------- Program #2 -------
+	    ExeStack:
+wH(a,30)
+
+	    Symtbl:
+a->1:int
+v->10
+	    Out:
+	    File Table:
+	    Heap:
+1->22
+
+------- Program #1 -------
+	    ExeStack:
+v=32
+
+	    Symtbl:
+a->1:int
+v->10
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+
+------- Program #1 -------
+	    ExeStack:
+v=32
+
+	    Symtbl:
+a->1:int
+v->10
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+
+------- Program #1 -------
+	    ExeStack:
+print(v)
+print(rH(a))
+print(v)
+print(rH(a))
+
+	    Symtbl:
+a->1:int
+v->32
+	    Out:
+	    File Table:
+	    Heap:
+1->30
+

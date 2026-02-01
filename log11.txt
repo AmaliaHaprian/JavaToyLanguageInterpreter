@@ -1,23 +1,17 @@
 ------- Program #1 -------
 	    ExeStack:
 int a
-
 int b
-
 int c
-
 a=1
-
 b=2
-
 c=5
-
 (switch (a*10)
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
+
 	    Symtbl:
 	    Out:
 	    File Table:
@@ -27,21 +21,16 @@ print(300)
 	    ExeStack:
 int a
 int b
-
 int c
-
 a=1
-
 b=2
-
 c=5
-
 (switch (a*10)
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
+
 	    Symtbl:
 	    Out:
 	    File Table:
@@ -51,21 +40,16 @@ print(300)
 	    ExeStack:
 int a
 int b
-
 int c
-
 a=1
-
 b=2
-
 c=5
-
 (switch (a*10)
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
+
 	    Symtbl:
 	    Out:
 	    File Table:
@@ -74,45 +58,16 @@ print(300)
 ------- Program #1 -------
 	    ExeStack:
 int b
-
 int c
-
 a=1
-
 b=2
-
 c=5
-
 (switch (a*10)
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
-	    Symtbl:
-a->0
-	    Out:
-	    File Table:
-	    Heap:
 
-------- Program #1 -------
-	    ExeStack:
-int b
-
-int c
-
-a=1
-
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
 	    Symtbl:
 a->0
 	    Out:
@@ -123,19 +78,15 @@ a->0
 	    ExeStack:
 int b
 int c
-
 a=1
-
 b=2
-
 c=5
-
 (switch (a*10)
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
+
 	    Symtbl:
 a->0
 	    Out:
@@ -146,672 +97,15 @@ a->0
 	    ExeStack:
 int b
 int c
-
-a=1
-
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->0
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-int c
-
-a=1
-
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->0
-b->0
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-int c
-
-a=1
-
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->0
-b->0
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-int c
-a=1
-
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->0
-b->0
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-int c
-a=1
-
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->0
-b->0
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-a=1
-
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->0
-b->0
-c->0
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-a=1
-
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->0
-b->0
-c->0
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
 a=1
 b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->0
-b->0
-c->0
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-a=1
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->0
-b->0
-c->0
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->1
-b->0
-c->0
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->1
-b->0
-c->0
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-b=2
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->1
-b->0
-c->0
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-b=2
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->1
-b->0
-c->0
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->0
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->0
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
 c=5
 (switch (a*10)
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
-	    Symtbl:
-a->1
-b->2
-c->0
-	    Out:
-	    File Table:
-	    Heap:
 
-------- Program #1 -------
-	    ExeStack:
-c=5
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->0
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-IF((a*10 == 10))THEN((print(a),print(b)))ELSE(IF((a*10 == 10))THEN((print(100),print(200)))ELSE(print(300)))
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-IF((a*10 == 10))THEN((print(a),print(b)))ELSE(IF((a*10 == 10))THEN((print(100),print(200)))ELSE(print(300)))
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-print(a)
-
-print(b)
-
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-print(a)
-
-print(b)
-
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-print(a)
-print(b)
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-print(a)
-print(b)
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-print(b)
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-1
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-print(b)
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-1
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-1
-2
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-1
-2
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-1
-2
-300
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-int a
-
-int b
-
-int c
-
-a=1
-
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-int a
-int b
-
-int c
-
-a=1
-
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-int a
-int b
-
-int c
-
-a=1
-
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-int b
-
-int c
-
-a=1
-
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
-	    Symtbl:
-a->0
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-int b
-
-int c
-
-a=1
-
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
 	    Symtbl:
 a->0
 	    Out:
@@ -822,42 +116,15 @@ a->0
 	    ExeStack:
 int b
 int c
-
 a=1
-
 b=2
-
 c=5
-
 (switch (a*10)
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
-	    Symtbl:
-a->0
-	    Out:
-	    File Table:
-	    Heap:
 
-------- Program #1 -------
-	    ExeStack:
-int b
-int c
-
-a=1
-
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
 	    Symtbl:
 a->0
 	    Out:
@@ -867,42 +134,15 @@ a->0
 ------- Program #1 -------
 	    ExeStack:
 int c
-
 a=1
-
 b=2
-
 c=5
-
 (switch (a*10)
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
-	    Symtbl:
-a->0
-b->0
-	    Out:
-	    File Table:
-	    Heap:
 
-------- Program #1 -------
-	    ExeStack:
-int c
-
-a=1
-
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
 	    Symtbl:
 a->0
 b->0
@@ -914,17 +154,14 @@ b->0
 	    ExeStack:
 int c
 a=1
-
 b=2
-
 c=5
-
 (switch (a*10)
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
+
 	    Symtbl:
 a->0
 b->0
@@ -936,17 +173,33 @@ b->0
 	    ExeStack:
 int c
 a=1
-
 b=2
-
 c=5
-
 (switch (a*10)
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
+
+	    Symtbl:
+a->0
+b->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int c
+a=1
+b=2
+c=5
+(switch (a*10)
+	(case (b*c):(print(a),print(b))
+	(case (10):(print(100),print(200))
+	(default:print(300))
+print(300)
+
 	    Symtbl:
 a->0
 b->0
@@ -957,39 +210,14 @@ b->0
 ------- Program #1 -------
 	    ExeStack:
 a=1
-
 b=2
-
 c=5
-
 (switch (a*10)
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
-	    Symtbl:
-a->0
-b->0
-c->0
-	    Out:
-	    File Table:
-	    Heap:
 
-------- Program #1 -------
-	    ExeStack:
-a=1
-
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
 	    Symtbl:
 a->0
 b->0
@@ -1002,15 +230,13 @@ c->0
 	    ExeStack:
 a=1
 b=2
-
 c=5
-
 (switch (a*10)
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
+
 	    Symtbl:
 a->0
 b->0
@@ -1023,15 +249,32 @@ c->0
 	    ExeStack:
 a=1
 b=2
-
 c=5
-
 (switch (a*10)
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
+
+	    Symtbl:
+a->0
+b->0
+c->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+a=1
+b=2
+c=5
+(switch (a*10)
+	(case (b*c):(print(a),print(b))
+	(case (10):(print(100),print(200))
+	(default:print(300))
+print(300)
+
 	    Symtbl:
 a->0
 b->0
@@ -1043,35 +286,13 @@ c->0
 ------- Program #1 -------
 	    ExeStack:
 b=2
-
 c=5
-
 (switch (a*10)
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
-	    Symtbl:
-a->1
-b->0
-c->0
-	    Out:
-	    File Table:
-	    Heap:
 
-------- Program #1 -------
-	    ExeStack:
-b=2
-
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
 	    Symtbl:
 a->1
 b->0
@@ -1084,13 +305,12 @@ c->0
 	    ExeStack:
 b=2
 c=5
-
 (switch (a*10)
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
+
 	    Symtbl:
 a->1
 b->0
@@ -1103,13 +323,30 @@ c->0
 	    ExeStack:
 b=2
 c=5
-
 (switch (a*10)
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
+
+	    Symtbl:
+a->1
+b->0
+c->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+b=2
+c=5
+(switch (a*10)
+	(case (b*c):(print(a),print(b))
+	(case (10):(print(100),print(200))
+	(default:print(300))
+print(300)
+
 	    Symtbl:
 a->1
 b->0
@@ -1121,31 +358,12 @@ c->0
 ------- Program #1 -------
 	    ExeStack:
 c=5
-
 (switch (a*10)
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
-	    Symtbl:
-a->1
-b->2
-c->0
-	    Out:
-	    File Table:
-	    Heap:
 
-------- Program #1 -------
-	    ExeStack:
-c=5
-
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
 	    Symtbl:
 a->1
 b->2
@@ -1161,8 +379,8 @@ c=5
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
+
 	    Symtbl:
 a->1
 b->2
@@ -1178,8 +396,25 @@ c=5
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
+
+	    Symtbl:
+a->1
+b->2
+c->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+c=5
+(switch (a*10)
+	(case (b*c):(print(a),print(b))
+	(case (10):(print(100),print(200))
+	(default:print(300))
+print(300)
+
 	    Symtbl:
 a->1
 b->2
@@ -1194,24 +429,8 @@ c->0
 	(case (b*c):(print(a),print(b))
 	(case (10):(print(100),print(200))
 	(default:print(300))
-
 print(300)
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-	    File Table:
-	    Heap:
 
-------- Program #1 -------
-	    ExeStack:
-(switch (a*10)
-	(case (b*c):(print(a),print(b))
-	(case (10):(print(100),print(200))
-	(default:print(300))
-
-print(300)
 	    Symtbl:
 a->1
 b->2
@@ -1227,6 +446,7 @@ c->5
 	(case (10):(print(100),print(200))
 	(default:print(300))
 print(300)
+
 	    Symtbl:
 a->1
 b->2
@@ -1242,6 +462,23 @@ c->5
 	(case (10):(print(100),print(200))
 	(default:print(300))
 print(300)
+
+	    Symtbl:
+a->1
+b->2
+c->5
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+(switch (a*10)
+	(case (b*c):(print(a),print(b))
+	(case (10):(print(100),print(200))
+	(default:print(300))
+print(300)
+
 	    Symtbl:
 a->1
 b->2
@@ -1254,6 +491,7 @@ c->5
 	    ExeStack:
 IF ((a*10 == b*c)) THEN ((print(a),print(b))) ELSE (IF ((a*10 == 10)) THEN ((print(100),print(200))) ELSE (print(300)))
 print(300)
+
 	    Symtbl:
 a->1
 b->2
@@ -1266,36 +504,7 @@ c->5
 	    ExeStack:
 IF ((a*10 == b*c)) THEN ((print(a),print(b))) ELSE (IF ((a*10 == 10)) THEN ((print(100),print(200))) ELSE (print(300)))
 print(300)
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-	    File Table:
-	    Heap:
 
-------- Program #1 -------
-	    ExeStack:
-print(a)
-
-print(b)
-
-print(300)
-	    Symtbl:
-a->1
-b->2
-c->5
-	    Out:
-	    File Table:
-	    Heap:
-
-------- Program #1 -------
-	    ExeStack:
-print(a)
-
-print(b)
-
-print(300)
 	    Symtbl:
 a->1
 b->2
@@ -1309,6 +518,7 @@ c->5
 print(a)
 print(b)
 print(300)
+
 	    Symtbl:
 a->1
 b->2
@@ -1322,6 +532,35 @@ c->5
 print(a)
 print(b)
 print(300)
+
+	    Symtbl:
+a->1
+b->2
+c->5
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(a)
+print(b)
+print(300)
+
+	    Symtbl:
+a->1
+b->2
+c->5
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(a)
+print(b)
+print(300)
+
 	    Symtbl:
 a->1
 b->2
@@ -1334,6 +573,7 @@ c->5
 	    ExeStack:
 print(b)
 print(300)
+
 	    Symtbl:
 a->1
 b->2
@@ -1347,6 +587,7 @@ c->5
 	    ExeStack:
 print(b)
 print(300)
+
 	    Symtbl:
 a->1
 b->2
@@ -1359,6 +600,7 @@ c->5
 ------- Program #1 -------
 	    ExeStack:
 print(300)
+
 	    Symtbl:
 a->1
 b->2
@@ -1372,6 +614,7 @@ c->5
 ------- Program #1 -------
 	    ExeStack:
 print(300)
+
 	    Symtbl:
 a->1
 b->2

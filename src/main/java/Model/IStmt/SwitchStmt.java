@@ -1,12 +1,15 @@
 package Model.IStmt;
 
 import Model.Exception.MyException;
+import Model.ExeStack.MyIStack;
 import Model.Exp.Exp;
 import Model.Exp.LogicExp;
 import Model.Exp.RelationalExp;
+import Model.Heap.IHeap;
 import Model.PrgState.PrgState;
 import Model.SymTable.MyIDictionary;
 import Model.Type.Type;
+import Model.Value.Value;
 
 public class SwitchStmt implements IStmt {
     private Exp exp, exp1, exp2;
@@ -23,7 +26,14 @@ public class SwitchStmt implements IStmt {
 
     @Override
     public PrgState execute(PrgState state) throws MyException {
+        MyIDictionary<String,Value> tbl=state.getSymtbl();
+        IHeap<Integer,Value> heap=state.getHeap();
 
+        Value valExp=exp.eval(tbl,heap);
+        Value valExp1=exp1.eval(tbl,heap);
+        Value valExp2=exp2.eval(tbl,heap);
+        if(!(valExp.getType().equals(valExp1.getType()) && valExp.getType().equals(valExp2.getType())))
+            throw new MyException("Type mismatch");
         IStmt ifStmt = new IfStmt(new RelationalExp(exp, exp1, "=="),
                 stmt1, new IfStmt(new RelationalExp(exp, exp2, "=="), stmt2, stmt3));
         state.getStk().push(ifStmt);

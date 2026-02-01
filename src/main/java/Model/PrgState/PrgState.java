@@ -74,7 +74,8 @@ public class PrgState {
         MyIStack<IStmt> stk=this.getStk();
         s+="\t    ExeStack:\n";
        // s+=stk.toString();
-        s+=stk.print();
+       // s+=stk.print();
+        s+=stk.printInOrder();
 
         MyIDictionary<String, Value> symtbl=this.getSymtbl();
         s+="\n\t    Symtbl:\n";
