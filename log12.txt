@@ -1,0 +1,10369 @@
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,20)
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,20)
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,30)
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,30)
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLock(x)
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLock(x)
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+fork((lock(x),(wH(v1,rH(v1)-1),unlock(x))))
+
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+fork((lock(x),(wH(v1,rH(v1)-1),unlock(x))))
+
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+fork((lock(x),(wH(v1,rH(v1)-1),unlock(x))))
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+fork((lock(x),(wH(v1,rH(v1)-1),unlock(x))))
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #3 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)+1))
+
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #3 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)+1))
+
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #3 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)+1))
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #3 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)+1))
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->4
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->4
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->4
+
+------- Program #4 -------
+	    ExeStack:
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->4
+
+------- Program #5 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->4
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->4
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->4
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->4
+
+------- Program #4 -------
+	    ExeStack:
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->4
+
+------- Program #5 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->4
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->4
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->4
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->4
+
+------- Program #4 -------
+	    ExeStack:
+wH(v1,rH(v1)-1)
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->4
+
+------- Program #5 -------
+	    ExeStack:
+
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->4
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->4
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->4
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->4
+
+------- Program #4 -------
+	    ExeStack:
+wH(v1,rH(v1)-1)
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->4
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->4
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->4
+
+------- Program #3 -------
+	    ExeStack:
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->4
+
+------- Program #4 -------
+	    ExeStack:
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->4
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->4
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->4
+
+------- Program #3 -------
+	    ExeStack:
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->4
+
+------- Program #4 -------
+	    ExeStack:
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->4
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->2
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->2
+
+------- Program #4 -------
+	    ExeStack:
+
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->2
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->2
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)-1)
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->2
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)-1)
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->2
+
+------- Program #2 -------
+	    ExeStack:
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->2
+
+------- Program #2 -------
+	    ExeStack:
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+18
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+18
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+18
+32
+	    File Table:
+	    Heap:
+1->18
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,20)
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,20)
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,30)
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,30)
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLock(x)
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLock(x)
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+fork((lock(x),(wH(v1,rH(v1)-1),unlock(x))))
+
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+fork((lock(x),(wH(v1,rH(v1)-1),unlock(x))))
+
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+fork((lock(x),(wH(v1,rH(v1)-1),unlock(x))))
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+fork((lock(x),(wH(v1,rH(v1)-1),unlock(x))))
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)+1))
+
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #3 -------
+	    ExeStack:
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)+1))
+
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #3 -------
+	    ExeStack:
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)+1))
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #3 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)+1))
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #3 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->3
+
+------- Program #4 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->3
+
+------- Program #5 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->3
+
+------- Program #4 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->3
+
+------- Program #5 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->3
+
+------- Program #4 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+wH(v1,rH(v1)-1)
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->3
+
+------- Program #5 -------
+	    ExeStack:
+
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->3
+
+------- Program #4 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+wH(v1,rH(v1)-1)
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->3
+
+------- Program #4 -------
+	    ExeStack:
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->3
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->3
+
+------- Program #4 -------
+	    ExeStack:
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->3
+
+------- Program #3 -------
+	    ExeStack:
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->3
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #3 -------
+	    ExeStack:
+
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->19
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,20)
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,20)
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,30)
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,30)
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLock(x)
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLock(x)
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)-1),unlock(x)))))
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+fork((lock(x),(wH(v1,rH(v1)-1),unlock(x))))
+
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+fork((lock(x),(wH(v1,rH(v1)-1),unlock(x))))
+
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+fork((lock(x),(wH(v1,rH(v1)-1),unlock(x))))
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+fork((lock(x),(wH(v1,rH(v1)-1),unlock(x))))
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #3 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)+1))
+
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #3 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)+1))
+
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #3 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)+1))
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #3 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)+1))
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->4
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->4
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->4
+
+------- Program #4 -------
+	    ExeStack:
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->4
+
+------- Program #5 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->4
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,20)
+
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,20)
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,20)
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,30)
+
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,30)
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,30)
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLock(x)
+
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLock(x)
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+newLock(x)
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->0
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork((lock(x),(wH(v1,rH(v1)-1),unlock(x)))),(lock(x),(wH(v1,rH(v1)+1),unlock(x)))))
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+fork((lock(x),(wH(v1,rH(v1)-1),unlock(x))))
+
+lock(x)
+
+wH(v1,rH(v1)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+fork((lock(x),(wH(v1,rH(v1)-1),unlock(x))))
+
+lock(x)
+
+wH(v1,rH(v1)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+fork((lock(x),(wH(v1,rH(v1)-1),unlock(x))))
+lock(x)
+
+wH(v1,rH(v1)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+fork((fork(wH(v2,rH(v2)+1)),(wH(v2,rH(v2)+1),unlock(x))))
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+fork((lock(x),(wH(v1,rH(v1)-1),unlock(x))))
+lock(x)
+
+wH(v1,rH(v1)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+
+wH(v1,rH(v1)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #3 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)+1))
+
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+
+wH(v1,rH(v1)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #3 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)+1))
+
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #3 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)+1))
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #2 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #3 -------
+	    ExeStack:
+fork(wH(v2,rH(v2)+1))
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->2
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->2
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->2
+
+------- Program #5 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->2
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->2
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->2
+
+------- Program #5 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->30
+	    Lock Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->2
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)+1)
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->2
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->2
+
+------- Program #5 -------
+	    ExeStack:
+
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->2
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)+1)
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)+1)
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->2
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->31
+	    Lock Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->2
+
+------- Program #2 -------
+	    ExeStack:
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->2
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->2
+
+------- Program #2 -------
+	    ExeStack:
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->2
+
+------- Program #3 -------
+	    ExeStack:
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->2
+
+------- Program #4 -------
+	    ExeStack:
+lock(x)
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->2
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->4
+
+------- Program #2 -------
+	    ExeStack:
+
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->4
+
+------- Program #3 -------
+	    ExeStack:
+
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->4
+
+------- Program #4 -------
+	    ExeStack:
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->4
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->4
+
+------- Program #4 -------
+	    ExeStack:
+wH(v1,rH(v1)-1)
+
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->4
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->4
+
+------- Program #4 -------
+	    ExeStack:
+wH(v1,rH(v1)-1)
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->4
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->4
+
+------- Program #4 -------
+	    ExeStack:
+wH(v1,rH(v1)-1)
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->21
+2->32
+	    Lock Table:
+1->4
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->4
+
+------- Program #4 -------
+	    ExeStack:
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->4
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->4
+
+------- Program #4 -------
+	    ExeStack:
+unlock(x)
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->4
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #4 -------
+	    ExeStack:
+
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+Nop
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v1))
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v2))
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+20
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+
+------- Program #1 -------
+	    ExeStack:
+
+	    Symtbl:
+x->1
+v1->1:int
+v2->2:int
+	    Out:
+20
+32
+	    File Table:
+	    Heap:
+1->20
+2->32
+	    Lock Table:
+1->-1
+

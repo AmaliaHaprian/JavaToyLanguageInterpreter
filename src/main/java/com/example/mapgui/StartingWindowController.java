@@ -230,6 +230,32 @@ public class StartingWindowController implements Initializable {
                                                                                                         new CompStmt(new LockStmt("x"), new CompStmt(new PrintStmt(new ReadHeapExp(new VarExp("v1"))),
                                                                                                                 new CompStmt(new UnlockStmt("x"),
                                                                                                                         new CompStmt(new LockStmt("q"), new CompStmt(new PrintStmt(new ReadHeapExp(new VarExp("v2"))), new UnlockStmt("q"))))))))))))))))))));
+        IStmt ex12=new CompStmt(new VarDeclStmt("v1", new RefType(new IntType())),
+                new CompStmt(new VarDeclStmt("v2", new RefType(new IntType())),
+                        new CompStmt(new VarDeclStmt("x", new IntType()),
+                                new CompStmt(new NewStmt("v1", new ValueExp(new IntValue(20))),
+                                        new CompStmt(new NewStmt("v2", new ValueExp(new IntValue(30))),
+                                                new CompStmt(new NewLockStmt("x"),
+                                new CompStmt(new ForkStmt(new CompStmt(new ForkStmt(new CompStmt(new LockStmt("x"),
+                                                                                                new CompStmt(new WriteHeapStmt("v1", new ArithExp(new ReadHeapExp(new VarExp("v1")), new ValueExp(new IntValue(1)), '-')),
+                                                                                                        new UnlockStmt("x")))),
+                                                                    new CompStmt(new LockStmt("x"),
+                                                                            new CompStmt(new WriteHeapStmt("v1", new ArithExp(new ReadHeapExp(new VarExp("v1")), new ValueExp(new IntValue(1)), '+')),
+                                                                                    new UnlockStmt("x"))))),
+                                        new CompStmt(new ForkStmt(new CompStmt(new ForkStmt(new WriteHeapStmt("v2", new ArithExp(new ReadHeapExp(new VarExp("v2")), new ValueExp(new IntValue(1)), '+'))),
+                                                                            new CompStmt(new WriteHeapStmt("v2", new ArithExp(new ReadHeapExp(new VarExp("v2")), new ValueExp(new IntValue(1)), '+')),
+                                                                                        new UnlockStmt("x")))),
+                                                new CompStmt(new NopStmt(),
+                                                        new CompStmt(new NopStmt(),
+                                                                new CompStmt(new NopStmt(),
+                                                                        new CompStmt(new NopStmt(),
+                                                                                new CompStmt(new NopStmt(),
+                                                                                        new CompStmt(new NopStmt(),
+                                                                                                new CompStmt(new NopStmt(),
+                                                                                                        new CompStmt(new NopStmt(),
+                                                                                                                new CompStmt(new NopStmt(),
+                                                                                                                        new CompStmt(new PrintStmt(new ReadHeapExp(new VarExp("v1"))),
+                                                                                                                                new PrintStmt(new ReadHeapExp(new VarExp("v2")))))))))))))))))))));
         programs.add(ex1);
         programs.add(ex2);
         programs.add(ex3);
@@ -241,6 +267,7 @@ public class StartingWindowController implements Initializable {
         programs.add(ex9);
         programs.add(ex10);
         programs.add(ex11);
+        programs.add(ex12);
 
         return programs;
     }

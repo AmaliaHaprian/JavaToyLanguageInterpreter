@@ -1,8 +1,6 @@
 package Model.IStmt;
 
 import Model.Exception.MyException;
-import Model.Exp.Exp;
-import Model.Heap.IHeap;
 import Model.LockTable.ILockTable;
 import Model.PrgState.PrgState;
 import Model.SymTable.MyIDictionary;
