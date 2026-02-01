@@ -14,7 +14,7 @@
    <children>
       <TextField fx:id="prgStatesNumber" layoutX="268.0" layoutY="14.0" promptText="PrgStates Number" />
       <Button fx:id="runOneStepButton" layoutX="94.0" layoutY="497.0" mnemonicParsing="false" onMouseClicked="#runOneStepHandler" prefHeight="35.0" prefWidth="554.0" text="Run One Step" />
-      <GridPane layoutX="32.0" layoutY="51.0" prefHeight="431.0" prefWidth="626.0">
+      <GridPane layoutX="4.0" layoutY="47.0" prefHeight="446.0" prefWidth="678.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="216.79998779296875" minWidth="10.0" prefWidth="206.4000244140625" />
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="316.20001220703125" minWidth="10.0" prefWidth="219.99997558593748" />
@@ -50,8 +50,9 @@
             <ListView fx:id="exeStack" prefHeight="166.0" prefWidth="181.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
             <TableView fx:id="semaphoreTable" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
               <columns>
-                <TableColumn fx:id="indexColumn" prefWidth="103.99996566772461" text="index" />
-                <TableColumn fx:id="pairColumn" prefWidth="104.800048828125" text="Pairs" />
+                <TableColumn fx:id="indexColumn" prefWidth="70.40002155303955" text="index" />
+                <TableColumn fx:id="valueColumnSemTable" prefWidth="66.4000244140625" text="Value" />
+                  <TableColumn fx:id="listColumnSemTable" prefWidth="77.60000305175782" text="List" />
               </columns>
             </TableView>
          </children>

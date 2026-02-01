@@ -28,20 +28,17 @@ public class AcquireStmt implements IStmt {
     public PrgState execute(PrgState state) throws MyException {
         lock.lock();
         MyIDictionary<String, Value> tbl=state.getSymtbl();
-        IHeap<Integer,Value> heap=state.getHeap();
         ISemaphoreTable<Integer, Pair<Integer, ArrayList<Integer>>> semaphoreTable= state.getSemaphoreTable();
 
         if(!(tbl.isDefined(var) && tbl.lookup(var).getType() instanceof IntType))
-            throw new MyException("Variable "+var+" is not an integer");
+            throw new MyException("Variable "+var+" is not an integer or is not defined");
 
         Value val=tbl.lookup(var);
-        if (! (val.getType() instanceof IntType))
-            throw new MyException("Variable "+var+" is not an integer");
         IntValue location=(IntValue)val;
         int foundIndex=location.getVal();
 
         if(!(semaphoreTable.isDefined(foundIndex)))
-            throw new MyException("Variable "+foundIndex+" is not a key");
+            throw new MyException("Variable "+foundIndex+" is not a key in the semaphore table");
 
         Pair<Integer, ArrayList<Integer>> pair=semaphoreTable.lookup(foundIndex);
         Integer len=pair.getSecond().size();

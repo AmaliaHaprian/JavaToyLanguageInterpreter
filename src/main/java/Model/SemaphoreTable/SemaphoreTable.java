@@ -1,20 +1,18 @@
 package Model.SemaphoreTable;
 
-import Model.Exception.ADT.EmptyCollection;
 import Model.Exception.ADT.FullCollection;
-import Model.SymTable.MyDictionary;
-import Model.SymTable.MyIDictionary;
-import Model.Value.Value;
+import Model.Exception.MyException;
 import Pair.Pair;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class SemaphoreTable implements ISemaphoreTable<Integer, Pair<Integer, ArrayList<Integer>>> {
-    private HashMap<Integer, Pair<Integer, ArrayList<Integer>>> semaphoreTable;
+    private ConcurrentHashMap<Integer, Pair<Integer, ArrayList<Integer>>> semaphoreTable;
     private Integer freeLocation;
 
     public SemaphoreTable() {
-        this.semaphoreTable = new HashMap<>();
+        this.semaphoreTable = new ConcurrentHashMap<>();
         this.freeLocation = 0;
     }
 
@@ -23,12 +21,12 @@ public class SemaphoreTable implements ISemaphoreTable<Integer, Pair<Integer, Ar
         return this.freeLocation; }
 
     @Override
-    public synchronized void add(Integer key, Pair<Integer, ArrayList<Integer>> value) throws FullCollection {
+    public synchronized void add(Integer key, Pair<Integer, ArrayList<Integer>> value) throws MyException {
         this.semaphoreTable.put(key,value);
     }
 
     @Override
-    public synchronized Pair<Integer, ArrayList<Integer>> remove(Integer key) throws EmptyCollection {
+    public synchronized Pair<Integer, ArrayList<Integer>> remove(Integer key) throws MyException {
         return null;
     }
 
@@ -58,7 +56,7 @@ public class SemaphoreTable implements ISemaphoreTable<Integer, Pair<Integer, Ar
         for(Map.Entry<Integer, Pair<Integer, ArrayList<Integer>>> entry : this.semaphoreTable.entrySet()){
             try {
                 newTbl.add(entry.getKey(), entry.getValue());
-            } catch (FullCollection e) {
+            } catch (MyException e) {
                 throw new RuntimeException(e);
             }
         }
@@ -76,7 +74,6 @@ public class SemaphoreTable implements ISemaphoreTable<Integer, Pair<Integer, Ar
             s+=entry.getKey()+":";
             s+=entry.getValue().getFirst()+",";
             s+=entry.getValue().getSecond();
-
         }
         return s;
     }

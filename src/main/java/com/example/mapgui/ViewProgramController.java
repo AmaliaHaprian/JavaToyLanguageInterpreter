@@ -68,7 +68,9 @@ public class ViewProgramController{
     @FXML
     private TableColumn<Pair<Integer, Pair<Integer, ArrayList<Integer>>>, Integer> indexColumn;
     @FXML
-    private TableColumn<Pair<Integer, Pair<Integer, ArrayList<Integer>>>, String> pairColumn;
+    private TableColumn<Pair<Integer, Pair<Integer, ArrayList<Integer>>>, Integer> valueColumnSemTable;
+    @FXML
+    private TableColumn<Pair<Integer, Pair<Integer, ArrayList<Integer>>>, String> listColumnSemTable;
 
     @FXML
     private void initialize(){
@@ -86,11 +88,11 @@ public class ViewProgramController{
 
         indexColumn.setCellValueFactory(cellData ->
                 new ReadOnlyIntegerWrapper(cellData.getValue().getFirst()).asObject());
-        pairColumn.setCellValueFactory(cellData ->{
-                Pair<Integer, ArrayList<Integer>> inner=cellData.getValue().getSecond();
-                Integer innerIndex=inner.getFirst();
-                ArrayList<Integer> list=inner.getSecond();
-                String formatted=innerIndex + ": " + list;
+        valueColumnSemTable.setCellValueFactory(cellData ->
+                new ReadOnlyIntegerWrapper(cellData.getValue().getSecond().getFirst()).asObject());
+        listColumnSemTable.setCellValueFactory(cellData ->{
+                ArrayList<Integer> list=cellData.getValue().getSecond().getSecond();
+                String formatted=list.toString();
                 return new ReadOnlyObjectWrapper<>(formatted);});
     }
 
