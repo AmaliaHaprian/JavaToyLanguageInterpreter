@@ -1,7 +1,8 @@
 package Model.LatchTable;
 
-import Model.Exception.ADT.EmptyCollection;
 import Model.Exception.ADT.FullCollection;
+import Model.Exception.MyException;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -16,12 +17,12 @@ public class LatchTable implements ILatchTable<Integer,Integer> {
     }
 
     @Override
-    public synchronized void add(Integer key, Integer value) throws FullCollection {
+    public synchronized void add(Integer key, Integer value) throws MyException {
         this.map.put(key,value);
     }
 
     @Override
-    public synchronized Integer remove(Integer key) throws EmptyCollection {
+    public synchronized Integer remove(Integer key) throws MyException {
         return 0;
     }
 
@@ -62,6 +63,8 @@ public class LatchTable implements ILatchTable<Integer,Integer> {
             try {
                 newDict.add(entry.getKey(), entry.getValue());
             } catch (FullCollection e) {
+                throw new RuntimeException(e);
+            } catch (MyException e) {
                 throw new RuntimeException(e);
             }
         }

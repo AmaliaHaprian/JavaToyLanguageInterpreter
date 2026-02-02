@@ -12,8 +12,12 @@ import Model.Type.Type;
 import Model.Value.IntValue;
 import Model.Value.Value;
 
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 public class CountDownStmt implements IStmt {
     private String var;
+    private static final Lock lock = new ReentrantLock();
 
     public CountDownStmt(String var){
         this.var=var;
@@ -21,6 +25,7 @@ public class CountDownStmt implements IStmt {
 
     @Override
     public PrgState execute(PrgState state) throws MyException {
+        lock.lock();
         MyIDictionary<String, Value> tbl=state.getSymtbl();
         IHeap<Integer,Value> heap=state.getHeap();
         MyIStack<IStmt> stk=state.getStk();
@@ -41,7 +46,7 @@ public class CountDownStmt implements IStmt {
                 out.add(new IntValue(state.getPersonalId()));
         }
         else throw new MyException("Variable "+var+" is not defined");
-
+        lock.unlock();
         return null;
     }
 

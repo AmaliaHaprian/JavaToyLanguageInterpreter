@@ -12,9 +12,13 @@ import Model.Type.Type;
 import Model.Value.IntValue;
 import Model.Value.Value;
 
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 public class NewLatchStmt implements IStmt {
     private String var;
     private Exp exp;
+    private static final Lock lock = new ReentrantLock();
 
     public NewLatchStmt(String var, Exp exp) {
         this.var = var;
@@ -23,6 +27,7 @@ public class NewLatchStmt implements IStmt {
 
     @Override
     public PrgState execute(PrgState state) throws MyException {
+        lock.lock();
         MyIDictionary<String, Value> tbl=state.getSymtbl();
         IHeap<Integer,Value> heap=state.getHeap();
         MyIStack<IStmt> stk=state.getStk();
@@ -37,6 +42,7 @@ public class NewLatchStmt implements IStmt {
         if(!(tbl.isDefined(var) && tbl.lookup(var).getType() instanceof IntType ))
             throw new MyException("Variable "+var+" is not an integer");
         tbl.update(var, new IntValue(location));
+        lock.unlock();
         return null;
     }
 
