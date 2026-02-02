@@ -224,6 +224,18 @@ public class StartingWindowController implements Initializable {
                                                                         new CompStmt(new NopStmt(),
                                                                                 new PrintStmt(new ArithExp(new VarExp("v"),new ValueExp(new IntValue(10)), '*')))))))))));
 
+        IStmt ex12=new CompStmt(new VarDeclStmt("v", new IntType()),
+                new CompStmt(new RepeatUntilStmt(new CompStmt(new ForkStmt(new CompStmt(new PrintStmt(new VarExp("v")), new AssignStmt("v", new ArithExp(new VarExp("v"), new ValueExp(new IntValue(1)), '-')))),
+                                                            new AssignStmt("v", new ArithExp(new VarExp("v"), new ValueExp(new IntValue(1)), '+'))), new RelationalExp(new VarExp("v"), new ValueExp(new IntValue(3)), "==")),
+                        new CompStmt(new VarDeclStmt("x", new IntType()),
+                                new CompStmt(new AssignStmt("x", new ValueExp(new IntValue(1))),
+                                        new CompStmt(new VarDeclStmt("y", new IntType()),
+                                                new CompStmt(new AssignStmt("y", new ValueExp(new IntValue(2))),
+                                                        new CompStmt(new VarDeclStmt("z", new IntType()),
+                                                                new CompStmt(new AssignStmt("z", new ValueExp(new IntValue(3))),
+                                                                        new CompStmt(new VarDeclStmt("w", new IntType()),
+                                                                                new CompStmt(new AssignStmt("w", new ValueExp(new IntValue(4))),
+                                                                                        new PrintStmt(new ArithExp(new VarExp("v"), new ValueExp(new IntValue(10)), '*'))))))))))));
         programs.add(ex1);
         programs.add(ex2);
         programs.add(ex3);
@@ -235,6 +247,7 @@ public class StartingWindowController implements Initializable {
         programs.add(ex9);
         programs.add(ex10);
         programs.add(ex11);
+        programs.add(ex12);
         return programs;
     }
 

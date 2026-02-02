@@ -1,0 +1,1884 @@
+------- Program #1 -------
+	    ExeStack:
+int v
+
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int v
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int v
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+repeat (fork((print(v),v=v-1)),v=v+1)until (v == 3)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+
+v=v+1
+
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+
+v=v+1
+
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->1
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+v=v-1
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->1
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+print(v)
+v=v-1
+	    Symtbl:
+v->0
+	    Out:
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+
+v=v+1
+
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=v-1
+	    Symtbl:
+v->0
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+
+v=v+1
+
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+v=v-1
+	    Symtbl:
+v->0
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #2 -------
+	    ExeStack:
+
+	    Symtbl:
+v->-1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+	    Symtbl:
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+	    Symtbl:
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->2
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+print(v)
+v=v-1
+	    Symtbl:
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->2
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+print(v)
+v=v-1
+	    Symtbl:
+v->1
+	    Out:
+0
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+
+v=v+1
+
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+v=v-1
+	    Symtbl:
+v->1
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+
+v=v+1
+
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+v=v-1
+	    Symtbl:
+v->1
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #3 -------
+	    ExeStack:
+
+	    Symtbl:
+v->0
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+fork((print(v),v=v-1))
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #4 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+	    Symtbl:
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+v=v+1
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #4 -------
+	    ExeStack:
+print(v)
+
+v=v-1
+	    Symtbl:
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->3
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #4 -------
+	    ExeStack:
+print(v)
+v=v-1
+	    Symtbl:
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+while(!(v == 3))(fork((print(v),v=v-1)),v=v+1)
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->3
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #4 -------
+	    ExeStack:
+print(v)
+v=v-1
+	    Symtbl:
+v->2
+	    Out:
+0
+1
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #4 -------
+	    ExeStack:
+v=v-1
+	    Symtbl:
+v->2
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #4 -------
+	    ExeStack:
+v=v-1
+	    Symtbl:
+v->2
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #4 -------
+	    ExeStack:
+
+	    Symtbl:
+v->1
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int x
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+x=1
+
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+x=1
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+x=1
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int y
+
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int y
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int y
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+y=2
+
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+y=2
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+y=2
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int z
+
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int z
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int z
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+z->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+z=3
+
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+z->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+z=3
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+z->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+z=3
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+z->0
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+z->3
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int w
+
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+z->3
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int w
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+z->3
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+int w
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+z->3
+v->3
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+z->3
+v->3
+w->0
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+w=4
+
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+z->3
+v->3
+w->0
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+w=4
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+z->3
+v->3
+w->0
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+w=4
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+z->3
+v->3
+w->0
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+z->3
+v->3
+w->4
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+print(v*10)
+	    Symtbl:
+x->1
+y->2
+z->3
+v->3
+w->4
+	    Out:
+0
+1
+2
+	    File Table:
+	    Heap:
+
+------- Program #1 -------
+	    ExeStack:
+
+	    Symtbl:
+x->1
+y->2
+z->3
+v->3
+w->4
+	    Out:
+0
+1
+2
+30
+	    File Table:
+	    Heap:
+
