@@ -41,6 +41,8 @@ public class CondAssignStmt implements IStmt {
         if(!(typExp1 instanceof BoolType))
             throw new MyException("Conditional statement doesn't have type bool");
         Type typVar=typeEnv.lookup(var);
+        if(typVar==null)
+            throw new MyException("Variable "+var+" not found");
         Type typExp2=exp2.typecheck(typeEnv);
         Type typExp3=exp3.typecheck(typeEnv);
         if(!(typVar.equals(typExp2) && typVar.equals(typExp3)))
