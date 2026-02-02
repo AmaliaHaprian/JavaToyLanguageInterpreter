@@ -18,15 +18,17 @@ public class MulExp implements Exp{
 
     @Override
     public Value eval(MyIDictionary<String, Value> tbl, IHeap<Integer, Value> hp) throws MyException {
-        Value v1 = exp1.eval(tbl, hp);
-        Value v2 = exp2.eval(tbl, hp);
-        if(v1.getType() instanceof IntType && v2.getType() instanceof IntType){
-            Integer i1=((IntValue) v1).getVal();
-            Integer i2=((IntValue) v2).getVal();
-            Integer result=i1*i2-(i1+i2);
-            return new IntValue(result);
-        }
-        throw new MyException("Expressions do not evaluate to integers");
+//        Value v1 = exp1.eval(tbl, hp);
+//        Value v2 = exp2.eval(tbl, hp);
+//        if(v1.getType() instanceof IntType && v2.getType() instanceof IntType){
+//            Integer i1=((IntValue) v1).getVal();
+//            Integer i2=((IntValue) v2).getVal();
+//            Integer result=i1*i2-(i1+i2);
+//            return new IntValue(result);
+//        }
+//        throw new MyException("Expressions do not evaluate to integers");
+        Exp exp=new ArithExp(new ArithExp(exp1,exp2,'*'), new ArithExp(exp1,exp2,'+'),'-');
+        return exp.eval(tbl,hp);
     }
 
     @Override

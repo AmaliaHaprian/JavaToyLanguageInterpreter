@@ -214,7 +214,7 @@ public class StartingWindowController implements Initializable {
 
         IStmt ex11=new CompStmt(new VarDeclStmt("v1", new IntType()),
                 new CompStmt(new VarDeclStmt("v2", new IntType()),
-                        new CompStmt(new AssignStmt("v1", new ValueExp(new IntValue(1))),
+                        new CompStmt(new AssignStmt("v1", new ValueExp(new IntValue(2))),
                                 new CompStmt(new AssignStmt("v2", new ValueExp(new IntValue(3))),
                                         new IfStmt(new UnaryExp(new VarExp("v1"), ""),
                                                 new PrintStmt(new MulExp(new VarExp("v1"), new VarExp("v2"))),
