@@ -5446,3 +5446,3635 @@ v3->3:int
 	    BarrierTable:
 1->Pair.Pair@77b56cac
 
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+newBarrier( cnt,rH(v2))
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+newBarrier( cnt,rH(v2))
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #1 -------
+	    ExeStack:
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #1 -------
+	    ExeStack:
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #1 -------
+	    ExeStack:
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #1 -------
+	    ExeStack:
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #2 -------
+	    ExeStack:
+await(cnt)
+
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #1 -------
+	    ExeStack:
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #2 -------
+	    ExeStack:
+await(cnt)
+
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #1 -------
+	    ExeStack:
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #2 -------
+	    ExeStack:
+await(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #1 -------
+	    ExeStack:
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #2 -------
+	    ExeStack:
+await(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #2 -------
+	    ExeStack:
+await(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #3 -------
+	    ExeStack:
+await(cnt)
+
+wH(v2,rH(v2)*10)
+
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #2 -------
+	    ExeStack:
+await(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #3 -------
+	    ExeStack:
+await(cnt)
+
+wH(v2,rH(v2)*10)
+
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #2 -------
+	    ExeStack:
+await(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #3 -------
+	    ExeStack:
+await(cnt)
+wH(v2,rH(v2)*10)
+
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #2 -------
+	    ExeStack:
+await(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #3 -------
+	    ExeStack:
+await(cnt)
+wH(v2,rH(v2)*10)
+
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #3 -------
+	    ExeStack:
+await(cnt)
+wH(v2,rH(v2)*10)
+
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #3 -------
+	    ExeStack:
+await(cnt)
+wH(v2,rH(v2)*10)
+
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #1 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #2 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #3 -------
+	    ExeStack:
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+20
+	    File Table:
+	    Heap:
+1->20
+2->300
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #3 -------
+	    ExeStack:
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+20
+	    File Table:
+	    Heap:
+1->20
+2->300
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #3 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+20
+300
+	    File Table:
+	    Heap:
+1->20
+2->300
+3->4
+	    BarrierTable:
+1->Pair.Pair@374e5919
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v1
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v2
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+Ref(int) v3
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+v2->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+int cnt
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v1,2)
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->0:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v2,3)
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->0:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+new(v3,4)
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->0:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+newBarrier( cnt,rH(v2))
+
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+newBarrier( cnt,rH(v2))
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+newBarrier( cnt,rH(v2))
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->0
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+
+------- Program #1 -------
+	    ExeStack:
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #1 -------
+	    ExeStack:
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #1 -------
+	    ExeStack:
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #1 -------
+	    ExeStack:
+fork((await(cnt),(wH(v1,rH(v1)*10),print(rH(v1)))))
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #1 -------
+	    ExeStack:
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #2 -------
+	    ExeStack:
+await(cnt)
+
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #1 -------
+	    ExeStack:
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #2 -------
+	    ExeStack:
+await(cnt)
+
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #1 -------
+	    ExeStack:
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #2 -------
+	    ExeStack:
+await(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #1 -------
+	    ExeStack:
+fork((await(cnt),(wH(v2,rH(v2)*10),(wH(v2,rH(v2)*10),print(rH(v2))))))
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #2 -------
+	    ExeStack:
+await(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #2 -------
+	    ExeStack:
+await(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #3 -------
+	    ExeStack:
+await(cnt)
+
+wH(v2,rH(v2)*10)
+
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #2 -------
+	    ExeStack:
+await(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #3 -------
+	    ExeStack:
+await(cnt)
+
+wH(v2,rH(v2)*10)
+
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #2 -------
+	    ExeStack:
+await(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #3 -------
+	    ExeStack:
+await(cnt)
+wH(v2,rH(v2)*10)
+
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #2 -------
+	    ExeStack:
+await(cnt)
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #3 -------
+	    ExeStack:
+await(cnt)
+wH(v2,rH(v2)*10)
+
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #3 -------
+	    ExeStack:
+await(cnt)
+wH(v2,rH(v2)*10)
+
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #1 -------
+	    ExeStack:
+await(cnt)
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #3 -------
+	    ExeStack:
+await(cnt)
+wH(v2,rH(v2)*10)
+
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #1 -------
+	    ExeStack:
+print(rH(v3))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #2 -------
+	    ExeStack:
+wH(v1,rH(v1)*10)
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+	    File Table:
+	    Heap:
+1->2
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #1 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #2 -------
+	    ExeStack:
+print(rH(v1))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+	    File Table:
+	    Heap:
+1->20
+2->3
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #2 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #3 -------
+	    ExeStack:
+wH(v2,rH(v2)*10)
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+20
+	    File Table:
+	    Heap:
+1->20
+2->30
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #3 -------
+	    ExeStack:
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+20
+	    File Table:
+	    Heap:
+1->20
+2->300
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #3 -------
+	    ExeStack:
+print(rH(v2))
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+20
+	    File Table:
+	    Heap:
+1->20
+2->300
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+
+------- Program #3 -------
+	    ExeStack:
+
+	    Symtbl:
+cnt->1
+v1->1:int
+v2->2:int
+v3->3:int
+	    Out:
+4
+20
+300
+	    File Table:
+	    Heap:
+1->20
+2->300
+3->4
+	    BarrierTable:
+1->Pair.Pair@3ee51d23
+

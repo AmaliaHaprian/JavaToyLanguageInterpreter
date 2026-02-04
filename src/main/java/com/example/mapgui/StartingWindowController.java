@@ -101,7 +101,11 @@ public class StartingWindowController implements Initializable {
             stage.show();
         }
         catch(Exception e){
-            System.out.println(e.getMessage());
+            Alert alert=new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Error");
+            alert.setHeaderText("Error");
+            alert.setContentText("Error: "+e.getMessage());
+            alert.showAndWait();
         }
     }
 

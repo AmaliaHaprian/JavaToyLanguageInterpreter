@@ -19,6 +19,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class AwaitStmt implements IStmt {
     private String var;
     private static final Lock lock=new ReentrantLock();
+
     public AwaitStmt(String var) {
         this.var=var;
     }
@@ -32,11 +33,17 @@ public class AwaitStmt implements IStmt {
         IBarrierTable<Integer, Pair<Integer, Vector<Integer>>> barrierTable=state.getBarrierTable();
 
         if(!(tbl.isDefined(var) && tbl.lookup(var).getType() instanceof IntType))
-            throw new MyException("Variable "+var+" is not a int");
+        {
+            lock.unlock();
+            throw new MyException("Variable "+var+" is not defined or is not a int");
+        }
 
         Integer foundIndex=((IntValue)tbl.lookup(var)).getVal();
         if(!(barrierTable.isDefined(foundIndex)))
+        {
+            lock.unlock();
             throw new MyException("Variable "+var+" does not point to an index");
+        }
         Pair<Integer, Vector<Integer>> pair=barrierTable.lookup(foundIndex);
         Integer len=pair.getSecond().size();
         if(pair.getFirst()>len){
@@ -59,6 +66,8 @@ public class AwaitStmt implements IStmt {
     @Override
     public MyIDictionary<String, Type> typecheck(MyIDictionary<String, Type> typeEnv) throws MyException {
         Type typVar=typeEnv.lookup(var);
+        if(typVar==null)
+            throw new MyException("Variable "+var+" is not defined");
         if(!(typVar instanceof IntType))
             throw new MyException("Type variable "+var+" is not an integer");
         return typeEnv;

@@ -36,14 +36,21 @@ public class NewBarrierStmt implements IStmt {
         IBarrierTable<Integer, Pair<Integer, Vector<Integer>>> barrierTable=state.getBarrierTable();
 
         Value val=exp.eval(tbl,heap);
+        if(!(val.getType() instanceof IntType))
+            throw new MyException("Type of expression is not int");
         Integer num=((IntValue)val).getVal();
         Integer location=barrierTable.getFreeLocation();
         barrierTable.add(location,new Pair<>(num,new Vector<Integer>()));
 
-        if(tbl.isDefined(var))
-            tbl.update(var,new IntValue(location));
-        else
-            tbl.add(var,new IntValue(location));
+//        if(tbl.isDefined(var))
+//            tbl.update(var,new IntValue(location));
+//        else
+//            tbl.add(var,new IntValue(location));
+        if(!(tbl.isDefined(var) && tbl.lookup(var).getType() instanceof IntType)){
+            lock.unlock();
+            throw new MyException("Variable is not int");
+        }
+        tbl.update(var, new IntValue(location));
         lock.unlock();
         return null;
     }
@@ -56,6 +63,8 @@ public class NewBarrierStmt implements IStmt {
     @Override
     public MyIDictionary<String, Type> typecheck(MyIDictionary<String, Type> typeEnv) throws MyException {
         Type typVar=typeEnv.lookup(var);
+        if(typVar==null)
+            throw new MyException("Type "+var+" not found in.");
         if(!(typVar instanceof IntType))
             throw new MyException("Type variable "+var+" is not an integer");
 

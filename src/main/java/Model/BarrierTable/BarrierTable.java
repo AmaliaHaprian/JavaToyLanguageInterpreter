@@ -68,8 +68,6 @@ public class BarrierTable implements IBarrierTable<Integer, Pair<Integer, Vector
         for(Map.Entry<Integer,Pair<Integer, Vector<Integer>>> entry : this.barrierTable.entrySet()){
             try {
                 newDict.add(entry.getKey(), entry.getValue());
-            } catch (FullCollection e) {
-                throw new RuntimeException(e);
             } catch (MyException e) {
                 throw new RuntimeException(e);
             }
