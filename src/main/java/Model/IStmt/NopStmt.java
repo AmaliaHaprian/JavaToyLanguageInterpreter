@@ -22,6 +22,6 @@ public class NopStmt implements IStmt {
         return typeEnv;
     }
     public String toString(){
-        return "NopStmt";
+        return "nop";
     }
 }

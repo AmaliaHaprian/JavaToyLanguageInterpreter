@@ -247,7 +247,7 @@ public class StartingWindowController implements Initializable {
         programs.add(ex9);
         programs.add(ex10);
         programs.add(ex11);
-        programs.add(ex12);
+        //programs.add(ex12);
         return programs;
     }
 
